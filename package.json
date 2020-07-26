@@ -1,10 +1,11 @@
 {
   "name": "vscode-sitevision-snippets",
+  "displayName": "SiteVision Snippets",
   "version": "1.0.0",
   "description": "Contains snippets for developing WebApps and RESTApps in SiteVision.",
-  "main": "index.js",
   "scripts": {
-    "build": "make-dir ./dist && vsce package -o ./dist/hampusn.vscode-sitevision-snippets-$(node -p -e \"require('./package.json').version\").vsix"
+    "build": "vsce package -o ./dist/hampusn.vscode-sitevision-snippets-$(node -p -e \"require('./package.json').version\").vsix",
+    "dev": "vsce package -o ./dist/dev.vsix && code --install-extension ./dist/dev.vsix"
   },
   "repository": {
     "type": "git",
@@ -13,19 +14,25 @@
   "author": "Hampus Nordin <nordin.hampus@gmail.com> (https://hampus.io)",
   "publisher": "hampusn",
   "license": "MIT",
+  "categories": [
+    "Snippets"
+  ],
   "contributes": {
     "snippets": [
       {
         "language": "html",
         "path": "./snippets/config.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/envision.json"
       }
     ]
   },
   "devDependencies": {
-    "make-dir-cli": "^2.0.0",
     "vsce": "^1.77.0"
   },
   "engines": {
-    "vscode": "^1.46.1"
+    "vscode": "^1.40.0"
   }
 }
