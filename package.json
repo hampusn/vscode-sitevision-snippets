@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/hampusn/vscode-sitevision-snippets.git"
   },
+  "bugs": {
+    "url": "https://github.com/hampusn/vscode-sitevision-snippets/issues"
+  },
   "author": "Hampus Nordin <nordin.hampus@gmail.com> (https://hampus.io)",
   "publisher": "hampusn",
   "license": "MIT",
