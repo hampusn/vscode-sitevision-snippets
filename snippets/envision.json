@@ -1,0 +1,26 @@
+{
+  "Envision: Alert": {
+    "prefix": ["envision:alert", "env:alert"],
+    "body": [
+      "<div class=\"env-alert env-alert--${1:success,warning,danger,info}\" role=\"alert\">",
+      "\t${3:<strong>Hello!</strong> this is an alert}",
+      "${2:\t<button type=\"button\" class=\"env-alert__close\" data-dismiss=\"alert\" aria-label=\"Close\">&times;</button>}",
+      "</div>"
+    ],
+    "description": "Envision alert"
+  },
+  "Envision: Badge": {
+    "prefix": ["envision:badge", "env:badge"],
+    "body": [
+      "<span class=\"env-badge ${1:env-badge--${2:success,warning,danger,info}}\">${3:Text}</span>"
+    ],
+    "description": "Envision badge"
+  },
+  "Envision: Button": {
+    "prefix": ["envision:button", "env:button"],
+    "body": [
+      "<button type=\"button\" class=\"env-button ${1:env-button--${2:primary,success,danger,invert,link}} ${3:env-button--${4:small,large}} ${5:env-button--block}\">${6:Text}</button>"
+    ],
+    "description": "Envision button"
+  }
+}
