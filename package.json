@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Contains snippets for developing WebApps and RESTApps in SiteVision.",
   "scripts": {
-    "build": "vsce package -o ./dist/hampusn.vscode-sitevision-snippets-$(node -p -e \"require('./package.json').version\").vsix",
-    "dev": "vsce package -o ./dist/dev.vsix && code --install-extension ./dist/dev.vsix"
+    "package": "vsce package -o ./dist/hampusn.vscode-sitevision-snippets-$(node -p -e \"require('./package.json').version\").vsix",
+    "build-and-install": "vsce package -o ./dist/extension.vsix && code --install-extension ./dist/extension.vsix"
   },
   "repository": {
     "type": "git",
