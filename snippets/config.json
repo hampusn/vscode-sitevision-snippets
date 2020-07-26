@@ -1,0 +1,272 @@
+{
+  "Config: Text/Email/Number": {
+    "prefix": ["conf:text", "conf:email", "conf:mail", "conf:number"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input type=\"${5:text,email,number}\" id=\"${2:text}\" aria-describedby=\"${2}-help\" class=\"form-control\" name=\"${1:text}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Standard text/email/number field"
+  },
+  "Config: Textarea": {
+    "prefix": ["conf:textarea"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<textarea id=\"${2:textarea}\" aria-describedby=\"${2}-help\" class=\"form-control\" name=\"${1:textarea}\"></textarea>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Standard textarea field"
+  },
+  "Config: Checkbox": {
+    "prefix": ["conf:checkbox", "conf:cb"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\">",
+      "\t\t<input aria-describedby=\"${2:checkbox}-help\" type=\"checkbox\" name=\"${1:checkbox}\" data-value-type=\"boolean\" />",
+      "\t\t${3:Label}",
+      "\t</label>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Standard checkbox boolean field"
+  },
+  "Config: Checkbox group": {
+    "prefix": ["conf:checkbox-group", "conf:cb-group", "conf:cbg"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<strong id=\"${4:checkboxes}\" class=\"form-label\">${5:Label}</strong>",
+      "\t<div class=\"checkbox\"><label><input aria-labelledby=\"${4}\" aria-describedby=\"${4}-help\" type=\"checkbox\" name=\"${1:checkboxes}\" value=\"${2}\" /> ${3}</label>",
+      "\t${0}",
+      "\t<p id=\"${4}-help\" class=\"help-block\">${6:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Standard checkbox group field"
+  },
+  "Config: Radio group": {
+    "prefix": ["conf:radio-group", "conf:rg"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<strong id=\"${4:radios}\" class=\"form-label\">${5:Label}</strong>",
+      "\t<div class=\"radio\"><label><input aria-labelledby=\"${4}\" aria-describedby=\"${4}-help\" type=\"radio\" name=\"${1:radios}\" value=\"${2}\" /> ${3}</label>",
+      "\t${0}",
+      "\t<p id=\"${4}-help\" class=\"help-block\">${6:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Standard radio group field"
+  },
+  "Config: Select": {
+    "prefix": ["conf:select"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<select id=\"${2:select}\" aria-describedby=\"${2}-help\" class=\"form-control\" name=\"${1:select}\">",
+      "\t\t${0}",
+      "\t</select>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Standard select field"
+  },
+  "Config: Page": {
+    "prefix": ["conf:page", "conf:page-selector", "page-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input id=\"${2:page}\" aria-describedby=\"${2}-help\" class=\"form-control\" data-component=\"page-selector\" ${5:data-types=\"sv:page,sv:sitePage\"} name=\"${1:page}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Page selector field"
+  },
+  "Config: File": {
+    "prefix": ["conf:file", "conf:file-selector", "file-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input id=\"${2:file}\" aria-describedby=\"${2}-help\" class=\"form-control\" data-component=\"file-selector\" name=\"${1:file}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "File selector field"
+  },
+  "Config: Image": {
+    "prefix": ["conf:image", "conf:image-selector", "image-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input id=\"${2:image}\" aria-describedby=\"${2}-help\" class=\"form-control\" data-component=\"image-selector\" name=\"${1:image}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Image selector field"
+  },
+  "Config: User": {
+    "prefix": ["conf:user", "conf:user-selector", "user-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input id=\"${2:user}\" aria-describedby=\"${2}-help\" class=\"form-control\" data-component=\"user-selector\" name=\"${1:user}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "User selector field"
+  },
+  "Config: Content node": {
+    "prefix": ["conf:content", "conf:content-node", "conf:content-node-selector", "content-node-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input id=\"${2:content}\" aria-describedby=\"${2}-help\" class=\"form-control\" data-component=\"content-node-selector\" name=\"${1:content}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Content node selector field"
+  },
+  "Config: Tags": {
+    "prefix": ["conf:tags", "conf:tags-selector", "tags-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input id=\"${2:tags}\" aria-describedby=\"${2}-help\" class=\"form-control\" data-component=\"tags-selector\" name=\"${1:tags}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Tags selector field"
+  },
+  "Config: Number spinner": {
+    "prefix": ["conf:number-spinner", "number-spinner"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input id=\"${2:number}\" aria-describedby=\"${2}-help\" class=\"form-control\" data-component=\"number-spinner\" data-min=\"${5:0}\" data-max=\"${6:10}\" data-step=\"${7:2}\" name=\"${1:number}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Number spinner field"
+  },
+  "Config: Metadata": {
+    "prefix": ["conf:metadata", "conf:metadata-selector", "metadata-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<select id=\"${2:metadata}\" aria-describedby=\"${2}-help\" data-component=\"metadata-selector\" ${5:data-types=\"sv:metadataUserDefinition,sv:metadataMultipleDefinition\"} name=\"${1:metadata}\"></select>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Metadata selector field"
+  },
+  "Config: Template": {
+    "prefix": ["conf:template", "conf:template-selector", "template-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<select id=\"${2:template}\" aria-describedby=\"${2}-help\" data-component=\"template-selector\" name=\"${1:template}\"></select>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Template selector field"
+  },
+  "Config: OAuth2": {
+    "prefix": ["conf:oauth2", "conf:oauth2-configuration-selector", "oauth2-configuration-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<select id=\"${2:oauth2}\" aria-describedby=\"${2}-help\" data-component=\"oauth2-configuration-selector\" name=\"${1:oauth2}\"></select>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "OAuth2 configuration selector field"
+  },
+  "Config: Virtual group": {
+    "prefix": ["conf:group", "conf:virtual-group-selector", "virtual-group-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<select id=\"${2:virtual-group}\" aria-describedby=\"${2}-help\" data-component=\"virtual-group-selector\" name=\"${1:virtualGroup}\"></select>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Virtual group selector field"
+  },
+  "Config: Search index": {
+    "prefix": ["conf:search-index", "conf:search-index-selector", "search-index-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<select id=\"${2:search-index}\" aria-describedby=\"${2}-help\" data-component=\"search-index-selector\" name=\"${1:searchIndex}\"></select>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Search index selector field"
+  },
+  "Config: Font": {
+    "prefix": ["conf:font", "conf:font-selector", "font-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<select id=\"${2:font}\" aria-describedby=\"${2}-help\" data-component=\"font-selector\" name=\"${1:font}\"></select>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Font selector field"
+  },
+  "Config: Color": {
+    "prefix": ["conf:color", "conf:color-selector", "color-selector"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<select id=\"${2:color}\" aria-describedby=\"${2}-help\" data-component=\"color-selector\" name=\"${1:color}\"></select>",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Color selector field"
+  },
+  "Config: Page list": {
+    "prefix": ["conf:page-list", "page-list"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input type=\"hidden\" id=\"${2:pages}\" aria-describedby=\"${2}-help\" data-component=\"page-list\" ${5:data-types=\"sv:page,sv:sitePage\"} name=\"${1:pages}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Page list field"
+  },
+  "Config: File list": {
+    "prefix": ["conf:file-list", "file-list"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input type=\"hidden\" id=\"${2:files}\" aria-describedby=\"${2}-help\" data-component=\"file-list\" ${5:data-types=\"sv:file\"} name=\"${1:files}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "File list field"
+  },
+  "Config: Image list": {
+    "prefix": ["conf:image-list", "image-list"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input type=\"hidden\" id=\"${2:images}\" aria-describedby=\"${2}-help\" data-component=\"image-list\" ${5:data-types=\"sv:image\"} name=\"${1:images}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "Image list field"
+  },
+  "Config: User list": {
+    "prefix": ["conf:user-list", "user-list"],
+    "body": [
+      "<div class=\"form-group\">",
+      "\t<label class=\"form-label\" for=\"${2}\">${3:Label}</label>",
+      "\t<input type=\"hidden\" id=\"${2:users}\" aria-describedby=\"${2}-help\" data-component=\"user-list\" name=\"${1:users}\">",
+      "\t<p id=\"${2}-help\" class=\"help-block\">${4:Help text}</p>",
+      "</div>"
+    ],
+    "description": "User list field"
+  }
+}
