@@ -1,0 +1,387 @@
+{
+  "SiteVision Util: ArchiveUtil": {
+    "prefix": ["svutil:archive-util", "svutil:au", "util:archive-util", "util:au"],
+    "body": ["const archiveUtil = require('ArchiveUtil');"],
+    "description": "SiteVision Util: ArchiveUtil"
+  },
+  "SiteVision Util: ArticleUtil": {
+    "prefix": ["svutil:article-util", "svutil:au", "util:article-util", "util:au"],
+    "body": ["const articleUtil = require('ArticleUtil');"],
+    "description": "SiteVision Util: ArticleUtil"
+  },
+  "SiteVision Util: AuthenticationUtil": {
+    "prefix": ["svutil:authentication-util", "svutil:au", "util:authentication-util", "util:au"],
+    "body": ["const authenticationUtil = require('AuthenticationUtil');"],
+    "description": "SiteVision Util: AuthenticationUtil"
+  },
+  "SiteVision Util: BookmarkUtil": {
+    "prefix": ["svutil:bookmark-util", "svutil:bu", "util:bookmark-util", "util:bu"],
+    "body": ["const bookmarkUtil = require('BookmarkUtil');"],
+    "description": "SiteVision Util: BookmarkUtil"
+  },
+  "SiteVision Util: BuddyIconRenderer": {
+    "prefix": ["svutil:buddy-icon-renderer", "svutil:bir", "util:buddy-icon-renderer", "util:bir"],
+    "body": ["const buddyIconRenderer = require('BuddyIconRenderer');"],
+    "description": "SiteVision Util: BuddyIconRenderer"
+  },
+  "SiteVision Util: ClientUtil": {
+    "prefix": ["svutil:client-util", "svutil:cu", "util:client-util", "util:cu"],
+    "body": ["const clientUtil = require('ClientUtil');"],
+    "description": "SiteVision Util: ClientUtil"
+  },
+  "SiteVision Util: CollaborationFactory": {
+    "prefix": ["svutil:collaboration-factory", "svutil:cf", "util:collaboration-factory", "util:cf"],
+    "body": ["const collaborationFactory = require('CollaborationFactory');"],
+    "description": "SiteVision Util: CollaborationFactory"
+  },
+  "SiteVision Util: ColorUtil": {
+    "prefix": ["svutil:color-util", "svutil:cu", "util:color-util", "util:cu"],
+    "body": ["const colorUtil = require('ColorUtil');"],
+    "description": "SiteVision Util: ColorUtil"
+  },
+  "SiteVision Util: CurrencyFactory": {
+    "prefix": ["svutil:currency-factory", "svutil:cf", "util:currency-factory", "util:cf"],
+    "body": ["const currencyFactory = require('CurrencyFactory');"],
+    "description": "SiteVision Util: CurrencyFactory"
+  },
+  "SiteVision Util: DateUtil": {
+    "prefix": ["svutil:date-util", "svutil:du", "util:date-util", "util:du"],
+    "body": ["const dateUtil = require('DateUtil');"],
+    "description": "SiteVision Util: DateUtil"
+  },
+  "SiteVision Util: DecorationUtil": {
+    "prefix": ["svutil:decoration-util", "svutil:du", "util:decoration-util", "util:du"],
+    "body": ["const decorationUtil = require('DecorationUtil');"],
+    "description": "SiteVision Util: DecorationUtil"
+  },
+  "SiteVision Util: DeviceUtil": {
+    "prefix": ["svutil:device-util", "svutil:du", "util:device-util", "util:du"],
+    "body": ["const deviceUtil = require('DeviceUtil');"],
+    "description": "SiteVision Util: DeviceUtil"
+  },
+  "SiteVision Util: DirectoryUtil": {
+    "prefix": ["svutil:directory-util", "svutil:du", "util:directory-util", "util:du"],
+    "body": ["const directoryUtil = require('DirectoryUtil');"],
+    "description": "SiteVision Util: DirectoryUtil"
+  },
+  "SiteVision Util: DocTypeUtil": {
+    "prefix": ["svutil:doc-type-util", "svutil:dtu", "util:doc-type-util", "util:dtu"],
+    "body": ["const docTypeUtil = require('DocTypeUtil');"],
+    "description": "SiteVision Util: DocTypeUtil"
+  },
+  "SiteVision Util: EndecUtil": {
+    "prefix": ["svutil:endec-util", "svutil:eu", "util:endec-util", "util:eu"],
+    "body": ["const endecUtil = require('EndecUtil');"],
+    "description": "SiteVision Util: EndecUtil"
+  },
+  "SiteVision Util: FileIconRenderer": {
+    "prefix": ["svutil:file-icon-renderer", "svutil:fir", "util:file-icon-renderer", "util:fir"],
+    "body": ["const fileIconRenderer = require('FileIconRenderer');"],
+    "description": "SiteVision Util: FileIconRenderer"
+  },
+  "SiteVision Util: FileUtil": {
+    "prefix": ["svutil:file-util", "svutil:fu", "util:file-util", "util:fu"],
+    "body": ["const fileUtil = require('FileUtil');"],
+    "description": "SiteVision Util: FileUtil"
+  },
+  "SiteVision Util: FolderUtil": {
+    "prefix": ["svutil:", "svutil:", "util:", "util:"],
+    "body": ["const folderUtil = require('FolderUtil');"],
+    "description": "SiteVision Util: FolderUtil"
+  },
+  "SiteVision Util: FontUtil": {
+    "prefix": ["svutil:font-util", "svutil:fu", "util:font-util", "util:fu"],
+    "body": ["const fontUtil = require('FontUtil');"],
+    "description": "SiteVision Util: FontUtil"
+  },
+  "SiteVision Util: FormatterBuilderFactory": {
+    "prefix": ["svutil:formatter-builder-factory", "svutil:fbf", "util:formatter-builder-factory", "util:fbf"],
+    "body": ["const formatterBuilderFactory = require('FormatterBuilderFactory');"],
+    "description": "SiteVision Util: FormatterBuilderFactory"
+  },
+  "SiteVision Util: IconUtil": {
+    "prefix": ["svutil:icon-util", "svutil:iu", "util:icon-util", "util:iu"],
+    "body": ["const iconUtil = require('IconUtil');"],
+    "description": "SiteVision Util: IconUtil"
+  },
+  "SiteVision Util: ImageLinkRenderer": {
+    "prefix": ["svutil:image-link-renderer", "svutil:ilr", "util:image-link-renderer", "util:ilr"],
+    "body": ["const imageLinkRenderer = require('ImageLinkRenderer');"],
+    "description": "SiteVision Util: ImageLinkRenderer"
+  },
+  "SiteVision Util: ImageRenderer": {
+    "prefix": ["svutil:image-renderer", "svutil:ir", "util:image-renderer", "util:ir"],
+    "body": ["const imageRenderer = require('ImageRenderer');"],
+    "description": "SiteVision Util: ImageRenderer"
+  },
+  "SiteVision Util: ImageScaler": {
+    "prefix": ["svutil:image-scaler", "svutil:is", "util:image-scaler", "util:is"],
+    "body": ["const imageScaler = require('ImageScaler');"],
+    "description": "SiteVision Util: ImageScaler"
+  },
+  "SiteVision Util: ImageUtil": {
+    "prefix": ["svutil:image-util", "svutil:iu", "util:image-util", "util:iu"],
+    "body": ["const imageUtil = require('ImageUtil');"],
+    "description": "SiteVision Util: ImageUtil"
+  },
+  "SiteVision Util: InstanceCreatorUtil": {
+    "prefix": ["svutil:instance-creator-util", "svutil:icu", "util:instance-creator-util", "util:icu"],
+    "body": ["const instanceCreatorUtil = require('InstanceCreatorUtil');"],
+    "description": "SiteVision Util: InstanceCreatorUtil"
+  },
+  "SiteVision Util: InstanceTypeUtil": {
+    "prefix": ["svutil:instance-type-util", "svutil:itu", "util:instance-type-util", "util:itu"],
+    "body": ["const instanceTypeUtil = require('InstanceTypeUtil');"],
+    "description": "SiteVision Util: InstanceTypeUtil"
+  },
+  "SiteVision Util: LandingPageUtil": {
+    "prefix": ["svutil:landing-page-util", "svutil:lpu", "util:landing-page-util", "util:lpu"],
+    "body": ["const landingPageUtil = require('LandingPageUtil');"],
+    "description": "SiteVision Util: LandingPageUtil"
+  },
+  "SiteVision Util: LinkRenderer": {
+    "prefix": ["svutil:link-renderer", "svutil:lr", "util:link-renderer", "util:lr"],
+    "body": ["const linkRenderer = require('LinkRenderer');"],
+    "description": "SiteVision Util: LinkRenderer"
+  },
+  "SiteVision Util: LocaleUtil": {
+    "prefix": ["svutil:locale-util", "svutil:lu", "util:locale-util", "util:lu"],
+    "body": ["const localeUtil = require('LocaleUtil');"],
+    "description": "SiteVision Util: LocaleUtil"
+  },
+  "SiteVision Util: LogUtil": {
+    "prefix": ["svutil:log-util", "svutil:lu", "util:log-util", "util:lu"],
+    "body": ["const logUtil = require('LogUtil');"],
+    "description": "SiteVision Util: LogUtil"
+  },
+  "SiteVision Util: MailUtil": {
+    "prefix": ["svutil:mail-util", "svutil:mu", "util:mail-util", "util:mu"],
+    "body": ["const mailUtil = require('MailUtil');"],
+    "description": "SiteVision Util: MailUtil"
+  },
+  "SiteVision Util: MessageDigesterFactory": {
+    "prefix": ["svutil:message-digester-factory", "svutil:mdf", "util:message-digester-factory", "util:mdf"],
+    "body": ["const messageDigesterFactory = require('MessageDigesterFactory');"],
+    "description": "SiteVision Util: MessageDigesterFactory"
+  },
+  "SiteVision Util: MetadataDefinitionUtil": {
+    "prefix": ["svutil:metadata-definition-util", "svutil:mdu", "util:metadata-definition-util", "util:mdu"],
+    "body": ["const metadataDefinitionUtil = require('MetadataDefinitionUtil');"],
+    "description": "SiteVision Util: MetadataDefinitionUtil"
+  },
+  "SiteVision Util: MetadataUtil": {
+    "prefix": ["svutil:metadata-util", "svutil:mu", "util:metadata-util", "util:mu"],
+    "body": ["const metadataUtil = require('MetadataUtil');"],
+    "description": "SiteVision Util: MetadataUtil"
+  },
+  "SiteVision Util: MimeTypeUtil": {
+    "prefix": ["svutil:mime-type-util", "svutil:mtu", "util:mime-type-util", "util:mtu"],
+    "body": ["const mimeTypeUtil = require('MimeTypeUtil');"],
+    "description": "SiteVision Util: MimeTypeUtil"
+  },
+  "SiteVision Util: NodeComparatorUtil": {
+    "prefix": ["svutil:node-comparator-util", "svutil:ncu", "util:node-comparator-util", "util:ncu"],
+    "body": ["const nodeComparatorUtil = require('NodeComparatorUtil');"],
+    "description": "SiteVision Util: NodeComparatorUtil"
+  },
+  "SiteVision Util: NodeFactoryUtil": {
+    "prefix": ["svutil:node-factory-util", "svutil:nfu", "util:node-factory-util", "util:nfu"],
+    "body": ["const nodeFactoryUtil = require('NodeFactoryUtil');"],
+    "description": "SiteVision Util: NodeFactoryUtil"
+  },
+  "SiteVision Util: NodeFilterUtil": {
+    "prefix": ["svutil:node-filter-util", "svutil:nfu", "util:node-filter-util", "util:nfu"],
+    "body": ["const nodeFilterUtil = require('NodeFilterUtil');"],
+    "description": "SiteVision Util: NodeFilterUtil"
+  },
+  "SiteVision Util: NodeIteratorUtil": {
+    "prefix": ["svutil:node-iterator-util", "svutil:niu", "util:node-iterator-util", "util:niu"],
+    "body": ["const nodeIteratorUtil = require('NodeIteratorUtil');"],
+    "description": "SiteVision Util: NodeIteratorUtil"
+  },
+  "SiteVision Util: NodeResolverUtil": {
+    "prefix": ["svutil:node-resolver-util", "svutil:nru", "util:node-resolver-util", "util:nru"],
+    "body": ["const nodeResolverUtil = require('NodeResolverUtil');"],
+    "description": "SiteVision Util: NodeResolverUtil"
+  },
+  "SiteVision Util: NodeTreeUtil": {
+    "prefix": ["svutil:node-tree-util", "svutil:ntu", "util:node-tree-util", "util:ntu"],
+    "body": ["const nodeTreeUtil = require('NodeTreeUtil');"],
+    "description": "SiteVision Util: NodeTreeUtil"
+  },
+  "SiteVision Util: NodeTypeUtil": {
+    "prefix": ["svutil:node-type-util", "svutil:ntu", "util:node-type-util", "util:ntu"],
+    "body": ["const nodeTypeUtil = require('NodeTypeUtil');"],
+    "description": "SiteVision Util: NodeTypeUtil"
+  },
+  "SiteVision Util: OutputUtil": {
+    "prefix": ["svutil:output-util", "svutil:ou", "util:output-util", "util:ou"],
+    "body": ["const outputUtil = require('OutputUtil');"],
+    "description": "SiteVision Util: OutputUtil"
+  },
+  "SiteVision Util: PageUtil": {
+    "prefix": ["svutil:page-util", "svutil:pu", "util:page-util", "util:pu"],
+    "body": ["const pageUtil = require('PageUtil');"],
+    "description": "SiteVision Util: PageUtil"
+  },
+  "SiteVision Util: PermissionUtil": {
+    "prefix": ["svutil:permission-util", "svutil:pu", "util:permission-util", "util:pu"],
+    "body": ["const permissionUtil = require('PermissionUtil');"],
+    "description": "SiteVision Util: PermissionUtil"
+  },
+  "SiteVision Util: PortletContextUtil": {
+    "prefix": ["svutil:portlet-context-util", "svutil:pcu", "util:portlet-context-util", "util:pcu"],
+    "body": ["const portletContextUtil = require('PortletContextUtil');"],
+    "description": "SiteVision Util: PortletContextUtil"
+  },
+  "SiteVision Util: PortletUtil": {
+    "prefix": ["svutil:portlet-util", "svutil:pu", "util:portlet-util", "util:pu"],
+    "body": ["const portletUtil = require('PortletUtil');"],
+    "description": "SiteVision Util: PortletUtil"
+  },
+  "SiteVision Util: PrincipalUtil": {
+    "prefix": ["svutil:principal-util", "svutil:pu", "util:principal-util", "util:pu"],
+    "body": ["const principalUtil = require('PrincipalUtil');"],
+    "description": "SiteVision Util: PrincipalUtil"
+  },
+  "SiteVision Util: PropertyUtil": {
+    "prefix": ["svutil:property-util", "svutil:pu", "util:property-util", "util:pu"],
+    "body": ["const propertyUtil = require('PropertyUtil');"],
+    "description": "SiteVision Util: PropertyUtil"
+  },
+  "SiteVision Util: PublishingUtil": {
+    "prefix": ["svutil:publishing-util", "svutil:pu", "util:publishing-util", "util:pu"],
+    "body": ["const publishingUtil = require('PublishingUtil');"],
+    "description": "SiteVision Util: PublishingUtil"
+  },
+  "SiteVision Util: RedirectUtil": {
+    "prefix": ["svutil:redirect-util", "svutil:ru", "util:redirect-util", "util:ru"],
+    "body": ["const redirectUtil = require('RedirectUtil');"],
+    "description": "SiteVision Util: RedirectUtil"
+  },
+  "SiteVision Util: ResourceLocatorUtil": {
+    "prefix": ["svutil:resource-locator-util", "svutil:rlu", "util:resource-locator-util", "util:rlu"],
+    "body": ["const resourceLocatorUtil = require('ResourceLocatorUtil');"],
+    "description": "SiteVision Util: ResourceLocatorUtil"
+  },
+  "SiteVision Util: RoleUtil": {
+    "prefix": ["svutil:role-util", "svutil:ru", "util:role-util", "util:ru"],
+    "body": ["const roleUtil = require('RoleUtil');"],
+    "description": "SiteVision Util: RoleUtil"
+  },
+  "SiteVision Util: ScriptUtil": {
+    "prefix": ["svutil:script-util", "svutil:su", "util:script-util", "util:su"],
+    "body": ["const scriptUtil = require('ScriptUtil');"],
+    "description": "SiteVision Util: ScriptUtil"
+  },
+  "SiteVision Util: SearchFactory": {
+    "prefix": ["svutil:search-factory", "svutil:sf", "util:search-factory", "util:sf"],
+    "body": ["const searchFactory = require('SearchFactory');"],
+    "description": "SiteVision Util: SearchFactory"
+  },
+  "SiteVision Util: SearchFieldUtil": {
+    "prefix": ["svutil:search-field-util", "svutil:sfu", "util:search-field-util", "util:sfu"],
+    "body": ["const searchFieldUtil = require('SearchFieldUtil');"],
+    "description": "SiteVision Util: SearchFieldUtil"
+  },
+  "SiteVision Util: SearchUtil": {
+    "prefix": ["svutil:search-util", "svutil:su", "util:search-util", "util:su"],
+    "body": ["const searchUtil = require('SearchUtil');"],
+    "description": "SiteVision Util: SearchUtil"
+  },
+  "SiteVision Util: StructureUtil": {
+    "prefix": ["svutil:structure-util", "svutil:su", "util:structure-util", "util:su"],
+    "body": ["const structureUtil = require('StructureUtil');"],
+    "description": "SiteVision Util: StructureUtil"
+  },
+  "SiteVision Util: SubscriberUtil": {
+    "prefix": ["svutil:subscriber-util", "svutil:su", "util:subscriber-util", "util:su"],
+    "body": ["const subscriberUtil = require('SubscriberUtil');"],
+    "description": "SiteVision Util: SubscriberUtil"
+  },
+  "SiteVision Util: SubscriptionUtil": {
+    "prefix": ["svutil:subscription-util", "svutil:su", "util:subscription-util", "util:su"],
+    "body": ["const subscriptionUtil = require('SubscriptionUtil');"],
+    "description": "SiteVision Util: SubscriptionUtil"
+  },
+  "SiteVision Util: TemplateUtil": {
+    "prefix": ["svutil:template-util", "svutil:tu", "util:template-util", "util:tu"],
+    "body": ["const templateUtil = require('TemplateUtil');"],
+    "description": "SiteVision Util: TemplateUtil"
+  },
+  "SiteVision Util: TextModuleRendererBuilder": {
+    "prefix": ["svutil:text-module-renderer-builder", "svutil:tmrb", "util:text-module-renderer-builder", "util:tmrb"],
+    "body": ["const textModuleRendererBuilder = require('TextModuleRendererBuilder');"],
+    "description": "SiteVision Util: TextModuleRendererBuilder"
+  },
+  "SiteVision Util: TimestampUtil": {
+    "prefix": ["svutil:timestamp-util", "svutil:tu", "util:timestamp-util", "util:tu"],
+    "body": ["const timestampUtil = require('TimestampUtil');"],
+    "description": "SiteVision Util: TimestampUtil"
+  },
+  "SiteVision Util: TranslationUtil": {
+    "prefix": ["svutil:translation-util", "svutil:tu", "util:translation-util", "util:tu"],
+    "body": ["const translationUtil = require('TranslationUtil');"],
+    "description": "SiteVision Util: TranslationUtil"
+  },
+  "SiteVision Util: TrashcanUtil": {
+    "prefix": ["svutil:trashcan-util", "svutil:tu", "util:trashcan-util", "util:tu"],
+    "body": ["const trashcanUtil = require('TrashcanUtil');"],
+    "description": "SiteVision Util: TrashcanUtil"
+  },
+  "SiteVision Util: UserFactory": {
+    "prefix": ["svutil:user-factory", "svutil:uf", "util:user-factory", "util:uf"],
+    "body": ["const userFactory = require('UserFactory');"],
+    "description": "SiteVision Util: UserFactory"
+  },
+  "SiteVision Util: UserFieldRenderer": {
+    "prefix": ["svutil:user-field-renderer", "svutil:ufr", "util:user-field-renderer", "util:ufr"],
+    "body": ["const userFieldRenderer = require('UserFieldRenderer');"],
+    "description": "SiteVision Util: UserFieldRenderer"
+  },
+  "SiteVision Util: UserUtil": {
+    "prefix": ["svutil:user-util", "svutil:uu", "util:user-util", "util:uu"],
+    "body": ["const userUtil = require('UserUtil');"],
+    "description": "SiteVision Util: UserUtil"
+  },
+  "SiteVision Util: Utils": {
+    "prefix": ["svutil:utils", "util:utils"],
+    "body": ["const utils = require('Utils');"],
+    "description": "SiteVision Util: Utils"
+  },
+  "SiteVision Util: WebContentUtil": {
+    "prefix": ["svutil:web-content-util", "svutil:wcu", "util:web-content-util", "util:wcu"],
+    "body": ["const webContentUtil = require('WebContentUtil');"],
+    "description": "SiteVision Util: WebContentUtil"
+  },
+  "SiteVision Util: WebResourceFactory": {
+    "prefix": ["svutil:web-resource-factory", "svutil:wrf", "util:web-resource-factory", "util:wrf"],
+    "body": ["const webResourceFactory = require('WebResourceFactory');"],
+    "description": "SiteVision Util: WebResourceFactory"
+  },
+  "SiteVision Util: VelocityRenderer": {
+    "prefix": ["svutil:velocity-renderer", "svutil:vr", "util:velocity-renderer", "util:vr"],
+    "body": ["const velocityRenderer = require('VelocityRenderer');"],
+    "description": "SiteVision Util: VelocityRenderer"
+  },
+  "SiteVision Util: VersionedPropertyUtil": {
+    "prefix": ["svutil:versioned-property-util", "svutil:vpu", "util:versioned-property-util", "util:vpu"],
+    "body": ["const versionedPropertyUtil = require('VersionedPropertyUtil');"],
+    "description": "SiteVision Util: VersionedPropertyUtil"
+  },
+  "SiteVision Util: VersionUtil": {
+    "prefix": ["svutil:version-util", "svutil:vu", "util:version-util", "util:vu"],
+    "body": ["const versionUtil = require('VersionUtil');"],
+    "description": "SiteVision Util: VersionUtil"
+  },
+  "SiteVision Util: XmlParserUtil": {
+    "prefix": ["svutil:xml-parser-util", "svutil:xpu", "util:xml-parser-util", "util:xpu"],
+    "body": ["const xmlParserUtil = require('XmlParserUtil');"],
+    "description": "SiteVision Util: XmlParserUtil"
+  },
+  "SiteVision Util: XSLTUtil": {
+    "prefix": ["svutil:xslt-util", "svutil:xu", "util:xslt-util", "util:xu"],
+    "body": ["const xSLTUtil = require('XSLTUtil');"],
+    "description": "SiteVision Util: XSLTUtil"
+  }
+}

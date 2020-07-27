@@ -29,6 +29,10 @@
       {
         "language": "html",
         "path": "./snippets/envision.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/utils.json"
       }
     ]
   },
