@@ -381,7 +381,7 @@
   },
   "SiteVision Util: XSLTUtil": {
     "prefix": ["svutil:xslt-util", "svutil:xu", "util:xslt-util", "util:xu"],
-    "body": ["const xSLTUtil = require('XSLTUtil');"],
+    "body": ["const xsltUtil = require('XSLTUtil');"],
     "description": "SiteVision Util: XSLTUtil"
   }
 }
