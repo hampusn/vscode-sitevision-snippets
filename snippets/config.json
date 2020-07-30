@@ -39,7 +39,7 @@
     "body": [
       "<div class=\"form-group\">",
       "\t<strong id=\"${4:checkboxes}\" class=\"form-label\">${5:Label}</strong>",
-      "\t<div class=\"checkbox\"><label><input aria-labelledby=\"${4}\" aria-describedby=\"${4}-help\" type=\"checkbox\" name=\"${1:checkboxes}\" value=\"${2}\" /> ${3}</label>",
+      "\t<div class=\"checkbox\"><label><input aria-labelledby=\"${4}\" aria-describedby=\"${4}-help\" type=\"checkbox\" name=\"${1:checkboxes}\" value=\"${2}\" /> ${3}</label></div>",
       "\t${0}",
       "\t<p id=\"${4}-help\" class=\"help-block\">${6:Help text}</p>",
       "</div>"
@@ -51,7 +51,7 @@
     "body": [
       "<div class=\"form-group\">",
       "\t<strong id=\"${4:radios}\" class=\"form-label\">${5:Label}</strong>",
-      "\t<div class=\"radio\"><label><input aria-labelledby=\"${4}\" aria-describedby=\"${4}-help\" type=\"radio\" name=\"${1:radios}\" value=\"${2}\" /> ${3}</label>",
+      "\t<div class=\"radio\"><label><input aria-labelledby=\"${4}\" aria-describedby=\"${4}-help\" type=\"radio\" name=\"${1:radios}\" value=\"${2}\" /> ${3}</label></div>",
       "\t${0}",
       "\t<p id=\"${4}-help\" class=\"help-block\">${6:Help text}</p>",
       "</div>"
