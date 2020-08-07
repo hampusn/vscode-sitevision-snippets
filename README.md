@@ -1,6 +1,6 @@
 # SiteVision snippets for VSCode
 
-Contains snippets for developing WebApps and RESTApps in [SiteVision][sitevision].
+Contains snippets for developing WebApps, RESTApps and script modules in [SiteVision][sitevision].
 
 ## Installation
 
@@ -12,7 +12,7 @@ Contains snippets for developing WebApps and RESTApps in [SiteVision][sitevision
 
 ### Download source and build
 
-_Requires `git`, `node`, `npm` and `code` ([VS Code CLI][vscode-cli])._
+_Requires `git`, `node` ([Node.js][node-js]), `npm` (Part of Node.js) and `code` ([VS Code CLI][vscode-cli])._
 
 Begin with cloning, installing dependencies, building and installing extension.
 
@@ -28,4 +28,5 @@ Finish with reloading open windows of VS Code by running `Developer: Reload Wind
 
 [sitevision]: https://www.sitevision.se
 [latest-release]: ../../releases/latest
+[node-js]: https://nodejs.org/en
 [vscode-cli]: https://code.visualstudio.com/docs/editor/command-line
