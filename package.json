@@ -4,7 +4,7 @@
   "version": "1.2.0",
   "description": "Contains snippets for developing WebApps and RESTApps in SiteVision.",
   "scripts": {
-    "lint": "ajv -s snippets-schema.json -d 'snippets/*.json'",
+    "lint": "jsonlint -qDc -V snippets-schema.json snippets",
     "package": "vsce package -o ./dist/hampusn.vscode-sitevision-snippets-$(node -p -e \"require('./package.json').version\").vsix",
     "build-and-install": "vsce package -o ./dist/extension.vsix && code --install-extension ./dist/extension.vsix"
   },
@@ -38,7 +38,7 @@
     ]
   },
   "devDependencies": {
-    "ajv-cli": "^3.2.1",
+    "@prantlf/jsonlint": "^10.2.0",
     "vsce": "^1.77.0"
   },
   "engines": {
