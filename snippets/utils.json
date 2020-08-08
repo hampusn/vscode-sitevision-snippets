@@ -165,7 +165,7 @@
     "description": "SiteVision Util: FilterBuilder"
   },
   "SiteVision Util: FolderUtil": {
-    "prefix": ["svutil:", "svutil:", "util:", "util:"],
+    "prefix": ["svutil:folder-util", "svutil:fu", "util:folder-util", "util:fu"],
     "body": ["const folderUtil = require('FolderUtil');"],
     "description": "SiteVision Util: FolderUtil"
   },
