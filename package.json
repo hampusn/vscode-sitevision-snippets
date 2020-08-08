@@ -1,7 +1,7 @@
 {
   "name": "vscode-sitevision-snippets",
   "displayName": "SiteVision Snippets",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Contains snippets for developing WebApps and RESTApps in SiteVision.",
   "scripts": {
     "lint": "jsonlint -qDc -V snippets-schema.json snippets",
