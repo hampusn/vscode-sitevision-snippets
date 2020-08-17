@@ -2,646 +2,651 @@
   "SiteVision Util: ArchiveUtil": {
     "prefix": ["svutil:archive-util", "svutil:au", "util:archive-util", "util:au"],
     "body": ["const archiveUtil = require('ArchiveUtil');"],
-    "description": "SiteVision Util: ArchiveUtil"
+    "description": "ArchiveUtil \n Archive utility interface that handles nodes with primary node type sv:archive."
   },
   "SiteVision Util: ArraysInstance": {
     "prefix": ["svutil:arrays-instance", "svutil:ai", "util:arrays-instance", "util:ai"],
     "body": ["const arraysInstance = require('ArraysInstance');"],
-    "description": "SiteVision Util: ArraysInstance"
+    "description": "ArraysInstance \n Instance wrapper for the java.util.Arrays class that delegates all method calls to the corresponding Arrays method."
   },
   "SiteVision Util: ArticleUtil": {
     "prefix": ["svutil:article-util", "svutil:au", "util:article-util", "util:au"],
     "body": ["const articleUtil = require('ArticleUtil');"],
-    "description": "SiteVision Util: ArticleUtil"
+    "description": "ArticleUtil \n Article utility interface that handles nodes with primary node type sv:article."
   },
   "SiteVision Util: AuthenticationUtil": {
     "prefix": ["svutil:authentication-util", "svutil:au", "util:authentication-util", "util:au"],
     "body": ["const authenticationUtil = require('AuthenticationUtil');"],
-    "description": "SiteVision Util: AuthenticationUtil"
+    "description": "AuthenticationUtil \n Authentication utility interface."
   },
   "SiteVision Util: BookmarkUtil": {
     "prefix": ["svutil:bookmark-util", "svutil:bu", "util:bookmark-util", "util:bu"],
     "body": ["const bookmarkUtil = require('BookmarkUtil');"],
-    "description": "SiteVision Util: BookmarkUtil"
+    "description": "BookmarkUtil \n Bookmark utility interface. Bookmarks are potentially clustered between sitevision instances. All altering methods in this class are synchronized."
   },
   "SiteVision Util: BuddyIconRenderer": {
     "prefix": ["svutil:buddy-icon-renderer", "svutil:bir", "util:buddy-icon-renderer", "util:bir"],
     "body": ["const buddyIconRenderer = require('BuddyIconRenderer');"],
-    "description": "SiteVision Util: BuddyIconRenderer"
+    "description": "BuddyIconRenderer \n BuddyIconRenderer is a stateful utility interface for rendering of buddy icons for user identities and collaboration groups."
   },
   "SiteVision Util: BuddyIconRenderer.BuddyIconSize.LARGE": {
     "prefix": ["svutil:buddy-icon-size-large", "svutil:bisl", "util:buddy-icon-size-large", "util:bisl"],
     "body": ["const buddyIconSizeLarge = require('BuddyIconRenderer.BuddyIconSize.LARGE');"],
-    "description": "SiteVision Util: BuddyIconRenderer.BuddyIconSize.LARGE"
+    "description": "BuddyIconRenderer.BuddyIconSize.LARGE \n Large size, 48x48 px as default."
   },
   "SiteVision Util: BuddyIconRenderer.BuddyIconSize.SMALL": {
     "prefix": ["svutil:buddy-icon-size-small", "svutil:biss", "util:buddy-icon-size-small", "util:biss"],
     "body": ["const buddyIconSizeSmall = require('BuddyIconRenderer.BuddyIconSize.SMALL');"],
-    "description": "SiteVision Util: BuddyIconRenderer.BuddyIconSize.SMALL"
+    "description": "BuddyIconRenderer.BuddyIconSize.SMALL \n Small size, 32x32 px as default."
   },
   "SiteVision Util: ClientUtil": {
     "prefix": ["svutil:client-util", "svutil:cu", "util:client-util", "util:cu"],
     "body": ["const clientUtil = require('ClientUtil');"],
-    "description": "SiteVision Util: ClientUtil"
+    "description": "ClientUtil \n Client utility interface."
   },
   "SiteVision Util: CollaborationFactory": {
     "prefix": ["svutil:collaboration-factory", "svutil:cf", "util:collaboration-factory", "util:cf"],
     "body": ["const collaborationFactory = require('CollaborationFactory');"],
-    "description": "SiteVision Util: CollaborationFactory"
+    "description": "CollaborationFactory \n Factory for creating collaboration-related instances."
   },
   "SiteVision Util: CollaborationGroupFolderUtil": {
     "prefix": ["svutil:collaboration-group-folder-util", "svutil:cgfu", "util:collaboration-group-folder-util", "util:cgfu"],
     "body": ["const collaborationGroupFolderUtil = require('CollaborationGroupFolderUtil');"],
-    "description": "SiteVision Util: CollaborationGroupFolderUtil"
+    "description": "CollaborationGroupFolderUtil \n Collaboration group folder utility interface that handles nodes with primary node type sv:collaborationGroupFolder."
   },
   "SiteVision Util: CollaborationGroupState.ACTIVE": {
     "prefix": ["svutil:collaboration-group-state-active", "svutil:cgsa", "util:collaboration-group-state-active", "util:cgsa"],
     "body": ["const collaborationGroupStateActive = require('CollaborationGroupState.ACTIVE');"],
-    "description": "SiteVision Util: CollaborationGroupState.ACTIVE"
+    "description": "CollaborationGroupState.ACTIVE \n The active state."
   },
   "SiteVision Util: CollaborationGroupState.INACTIVE": {
     "prefix": ["svutil:collaboration-group-state-inactive", "svutil:cgsi", "util:collaboration-group-state-inactive", "util:cgsi"],
     "body": ["const collaborationGroupStateInactive = require('CollaborationGroupState.INACTIVE');"],
-    "description": "SiteVision Util: CollaborationGroupState.INACTIVE"
+    "description": "CollaborationGroupState.INACTIVE \n The inactive state."
   },
   "SiteVision Util: CollaborationGroupTemplateUtil": {
     "prefix": ["svutil:collaboration-group-template-util", "svutil:cgtu", "util:collaboration-group-template-util", "util:cgtu"],
     "body": ["const collaborationGroupTemplateUtil = require('CollaborationGroupTemplateUtil');"],
-    "description": "SiteVision Util: CollaborationGroupTemplateUtil"
+    "description": "CollaborationGroupTemplateUtil \n Collaboration group template utility interface that handles nodes with primary node type sv:collaborationGroupTemplate."
   },
   "SiteVision Util: CollaborationGroupType.CLOSED": {
     "prefix": ["svutil:collaboration-group-type-closed", "svutil:cgtc", "util:collaboration-group-type-closed", "util:cgtc"],
     "body": ["const collaborationGroupTypeClosed = require('CollaborationGroupType.CLOSED');"],
-    "description": "SiteVision Util: CollaborationGroupType.CLOSED"
+    "description": "CollaborationGroupType.CLOSED \n The closed type."
+  },
+  "SiteVision Util: CollaborationGroupType.MEMBER_MODERATED": {
+    "prefix": ["svutil:collaboration-group-type-member-moderated", "svutil:cgtmm", "util:collaboration-group-type-member-moderated", "util:cgtmm"],
+    "body": ["const collaborationGroupTypeMemberModerated = require('CollaborationGroupType.MEMBER_MODERATED');"],
+    "description": "CollaborationGroupType.MEMBER_MODERATED \n The member-moderated type."
   },
   "SiteVision Util: CollaborationGroupType.OPEN": {
     "prefix": ["svutil:collaboration-group-type-open", "svutil:cgto", "util:collaboration-group-type-open", "util:cgto"],
     "body": ["const collaborationGroupTypeOpen = require('CollaborationGroupType.OPEN');"],
-    "description": "SiteVision Util: CollaborationGroupType.OPEN"
+    "description": "CollaborationGroupType.OPEN \n The open type."
   },
   "SiteVision Util: CollaborationGroupUtil": {
     "prefix": ["svutil:collaboration-group-util", "svutil:cgu", "util:collaboration-group-util", "util:cgu"],
     "body": ["const collaborationGroupUtil = require('CollaborationGroupUtil');"],
-    "description": "SiteVision Util: CollaborationGroupUtil"
+    "description": "CollaborationGroupUtil \n Collaboration group utility interface."
   },
   "SiteVision Util: CollectionsInstance": {
     "prefix": ["svutil:collections-instance", "svutil:ci", "util:collections-instance", "util:ci"],
     "body": ["const collectionsInstance = require('CollectionsInstance');"],
-    "description": "SiteVision Util: CollectionsInstance"
+    "description": "CollectionsInstance \n Instance wrapper for the java.util.Collections class that delegates all method calls to the corresponding Collections method."
   },
   "SiteVision Util: ColorUtil": {
     "prefix": ["svutil:color-util", "svutil:cu", "util:color-util", "util:cu"],
     "body": ["const colorUtil = require('ColorUtil');"],
-    "description": "SiteVision Util: ColorUtil"
+    "description": "ColorUtil \n Utility interface for Colors."
   },
   "SiteVision Util: CompoundAndFilterBuilder": {
     "prefix": ["svutil:compound-and-filter-builder", "svutil:cafb", "util:compound-and-filter-builder", "util:cafb"],
     "body": ["const compoundAndFilterBuilder = require('CompoundAndFilterBuilder');"],
-    "description": "SiteVision Util: CompoundAndFilterBuilder"
+    "description": "CompoundAndFilterBuilder \n Builds a compound filter that requires that all added filters matches."
   },
   "SiteVision Util: CompoundComparatorBuilder": {
     "prefix": ["svutil:compound-comparator-builder", "svutil:ccb", "util:compound-comparator-builder", "util:ccb"],
     "body": ["const compoundComparatorBuilder = require('CompoundComparatorBuilder');"],
-    "description": "SiteVision Util: CompoundComparatorBuilder"
+    "description": "CompoundComparatorBuilder \n Builds a compound comparator that allows comparison based on multiple comparators."
   },
   "SiteVision Util: CompoundOrFilterBuilder": {
     "prefix": ["svutil:compound-or-filter-builder", "svutil:cofb", "util:compound-or-filter-builder", "util:cofb"],
     "body": ["const compoundOrFilterBuilder = require('CompoundOrFilterBuilder');"],
-    "description": "SiteVision Util: CompoundOrFilterBuilder"
+    "description": "CompoundOrFilterBuilder \n Builds a compound filter that requires that any of the added filters matches."
   },
   "SiteVision Util: CurrencyFactory": {
     "prefix": ["svutil:currency-factory", "svutil:cf", "util:currency-factory", "util:cf"],
     "body": ["const currencyFactory = require('CurrencyFactory');"],
-    "description": "SiteVision Util: CurrencyFactory"
+    "description": "CurrencyFactory \n Factory for creating Currency instances."
   },
   "SiteVision Util: DateUtil": {
     "prefix": ["svutil:date-util", "svutil:du", "util:date-util", "util:du"],
     "body": ["const dateUtil = require('DateUtil');"],
-    "description": "SiteVision Util: DateUtil"
+    "description": "DateUtil \n Date utility interface."
   },
   "SiteVision Util: DecorationUtil": {
     "prefix": ["svutil:decoration-util", "svutil:du", "util:decoration-util", "util:du"],
     "body": ["const decorationUtil = require('DecorationUtil');"],
-    "description": "SiteVision Util: DecorationUtil"
+    "description": "DecorationUtil \n Utility interface for Decorations."
   },
   "SiteVision Util: DeviceUtil": {
     "prefix": ["svutil:device-util", "svutil:du", "util:device-util", "util:du"],
     "body": ["const deviceUtil = require('DeviceUtil');"],
-    "description": "SiteVision Util: DeviceUtil"
+    "description": "DeviceUtil \n Device utility interface."
   },
   "SiteVision Util: DirectoryUtil": {
     "prefix": ["svutil:directory-util", "svutil:du", "util:directory-util", "util:du"],
     "body": ["const directoryUtil = require('DirectoryUtil');"],
-    "description": "SiteVision Util: DirectoryUtil"
+    "description": "DirectoryUtil \n LDAP directory utility interface."
   },
   "SiteVision Util: DocTypeUtil": {
     "prefix": ["svutil:doc-type-util", "svutil:dtu", "util:doc-type-util", "util:dtu"],
     "body": ["const docTypeUtil = require('DocTypeUtil');"],
-    "description": "SiteVision Util: DocTypeUtil"
+    "description": "DocTypeUtil \n A utility interface for checking what DOCTYPE a page uses."
   },
   "SiteVision Util: EndecUtil": {
     "prefix": ["svutil:endec-util", "svutil:eu", "util:endec-util", "util:eu"],
     "body": ["const endecUtil = require('EndecUtil');"],
-    "description": "SiteVision Util: EndecUtil"
+    "description": "EndecUtil \n Utility interface for encoding/decoding (\"encode/decode\" / \"escape/unescape\")."
   },
   "SiteVision Util: ExtendedDismaxParserBuilder": {
     "prefix": ["svutil:extended-dismax-parser-builder", "svutil:edpb", "util:extended-dismax-parser-builder", "util:edpb"],
     "body": ["const extendedDismaxParserBuilder = require('ExtendedDismaxParserBuilder');"],
-    "description": "SiteVision Util: ExtendedDismaxParserBuilder"
+    "description": "ExtendedDismaxParserBuilder \n Builder for creating a multi-field Parser component with specific behaviour."
   },
   "SiteVision Util: FileIconRenderer": {
     "prefix": ["svutil:file-icon-renderer", "svutil:fir", "util:file-icon-renderer", "util:fir"],
     "body": ["const fileIconRenderer = require('FileIconRenderer');"],
-    "description": "SiteVision Util: FileIconRenderer"
+    "description": "FileIconRenderer \n FileIconRenderer is a stateful utility interface that can be used to render valid xhtml img elements based on the file icons of the website."
   },
   "SiteVision Util: FileUtil": {
     "prefix": ["svutil:file-util", "svutil:fu", "util:file-util", "util:fu"],
     "body": ["const fileUtil = require('FileUtil');"],
-    "description": "SiteVision Util: FileUtil"
+    "description": "FileUtil \n File utility interface that handles nodes with primary node type sv:file and sv:temporaryFile."
   },
   "SiteVision Util: FilterBuilder": {
     "prefix": ["svutil:filter-builder", "svutil:fb", "util:filter-builder", "util:fb"],
     "body": ["const filterBuilder = require('FilterBuilder');"],
-    "description": "SiteVision Util: FilterBuilder"
+    "description": "FilterBuilder \n Builder for creating a Filter component with specific behaviour."
   },
   "SiteVision Util: FolderUtil": {
     "prefix": ["svutil:folder-util", "svutil:fu", "util:folder-util", "util:fu"],
     "body": ["const folderUtil = require('FolderUtil');"],
-    "description": "SiteVision Util: FolderUtil"
+    "description": "FolderUtil \n Folder utility interface that handles nodes with primary node type sv:folder."
   },
   "SiteVision Util: FontUtil": {
     "prefix": ["svutil:font-util", "svutil:fu", "util:font-util", "util:fu"],
     "body": ["const fontUtil = require('FontUtil');"],
-    "description": "SiteVision Util: FontUtil"
+    "description": "FontUtil \n Utility interface for Fonts."
   },
   "SiteVision Util: FormatterBuilderFactory": {
     "prefix": ["svutil:formatter-builder-factory", "svutil:fbf", "util:formatter-builder-factory", "util:fbf"],
     "body": ["const formatterBuilderFactory = require('FormatterBuilderFactory');"],
-    "description": "SiteVision Util: FormatterBuilderFactory"
+    "description": "FormatterBuilderFactory \n Factory for creating formatter builders."
   },
   "SiteVision Util: HighlightBuilder": {
     "prefix": ["svutil:hightlight-builder", "svutil:hb", "util:hightlight-builder", "util:hb"],
     "body": ["const highlightBuilder = require('HighlightBuilder');"],
-    "description": "SiteVision Util: HighlightBuilder"
+    "description": "HighlightBuilder \n Builder for creating a Highlight component with specific behaviour."
   },
   "SiteVision Util: IconUtil": {
     "prefix": ["svutil:icon-util", "svutil:iu", "util:icon-util", "util:iu"],
     "body": ["const iconUtil = require('IconUtil');"],
-    "description": "SiteVision Util: IconUtil"
+    "description": "IconUtil \n Utility interface for Icons."
   },
   "SiteVision Util: ImageLinkRenderer": {
     "prefix": ["svutil:image-link-renderer", "svutil:ilr", "util:image-link-renderer", "util:ilr"],
     "body": ["const imageLinkRenderer = require('ImageLinkRenderer');"],
-    "description": "SiteVision Util: ImageLinkRenderer"
+    "description": "ImageLinkRenderer \n ImageLinkRenderer is a stateful utility interface that combines an ImageRenderer and a LinkRenderer to render valid image links."
   },
   "SiteVision Util: ImageRenderer": {
     "prefix": ["svutil:image-renderer", "svutil:ir", "util:image-renderer", "util:ir"],
     "body": ["const imageRenderer = require('ImageRenderer');"],
-    "description": "SiteVision Util: ImageRenderer"
+    "description": "ImageRenderer \n ImageRenderer is a stateful utility interface that can be used to render valid xhtml img elements based on images of the website."
   },
   "SiteVision Util: ImageScaler": {
     "prefix": ["svutil:image-scaler", "svutil:is", "util:image-scaler", "util:is"],
     "body": ["const imageScaler = require('Utils').getImageScaler(${1:aMaxWidth}, ${2:aMaxHeight});"],
-    "description": "SiteVision Util: ImageScaler"
+    "description": "ImageScaler \n The ImageScaler interface describes in which way images should be rescaled by an ImageRenderer."
   },
   "SiteVision Util: ImageUtil": {
     "prefix": ["svutil:image-util", "svutil:iu", "util:image-util", "util:iu"],
     "body": ["const imageUtil = require('ImageUtil');"],
-    "description": "SiteVision Util: ImageUtil"
+    "description": "ImageUtil \n Image utility interface that handles nodes with primary node type sv:image."
   },
   "SiteVision Util: IndexingUtil": {
     "prefix": ["svutil:indexing-util", "svutil:iu", "util:indexing-util", "util:iu"],
     "body": ["const indexingUtil = require('IndexingUtil');"],
-    "description": "SiteVision Util: IndexingUtil"
+    "description": "IndexingUtil \n Indexing utility interface."
   },
   "SiteVision Util: IndexUtil": {
     "prefix": ["svutil:index-util", "svutil:iu", "util:index-util", "util:iu"],
     "body": ["const indexUtil = require('IndexUtil');"],
-    "description": "SiteVision Util: IndexUtil"
+    "description": "IndexUtil \n Index utility interface."
   },
   "SiteVision Util: IndexUtil.IndexType.NODE": {
     "prefix": ["svutil:index-util-index-type-node", "svutil:iuitn", "util:index-util-index-type-node", "util:iuitn"],
     "body": ["const indexTypeNode = require('IndexUtil.IndexType.NODE');"],
-    "description": "SiteVision Util: IndexUtil.IndexType.NODE"
+    "description": "IndexUtil.IndexType.NODE \n The node index type (index of pages/articles/files/images)."
   },
   "SiteVision Util: IndexUtil.IndexType.UGC": {
     "prefix": ["svutil:index-util-index-type-ugc", "svutil:iuitu", "util:index-util-index-type-ugc", "util:iuitu"],
     "body": ["const indexTypeUGC = require('IndexUtil.IndexType.UGC');"],
-    "description": "SiteVision Util: IndexUtil.IndexType.UGC"
+    "description": "IndexUtil.IndexType.UGC \n The UGC (user-generated content) index type."
   },
   "SiteVision Util: IndexUtil.IndexType.USER": {
     "prefix": ["svutil:index-util-index-type-user", "svutil:iuitu", "util:index-util-index-type-user", "util:iuitu"],
     "body": ["const indexTypeUser = require('IndexUtil.IndexType.USER');"],
-    "description": "SiteVision Util: IndexUtil.IndexType.USER"
+    "description": "IndexUtil.IndexType.USER \n The user index type (index of sv:simpleUser users)."
   },
   "SiteVision Util: IndexUtil.IndexType.USER_IDENTITY": {
     "prefix": ["svutil:index-util-index-type-user-identity", "svutil:iuitui", "util:index-util-index-type-user-identity", "util:iuitui"],
     "body": ["const indexTypeUserIdentity = require('IndexUtil.IndexType.USER_IDENTITY');"],
-    "description": "SiteVision Util: IndexUtil.IndexType.USER_IDENTITY"
+    "description": "IndexUtil.IndexType.USER_IDENTITY \n The user identity index type (index of social user identities)."
   },
   "SiteVision Util: InstanceCreatorUtil": {
     "prefix": ["svutil:instance-creator-util", "svutil:icu", "util:instance-creator-util", "util:icu"],
     "body": ["const instanceCreatorUtil = require('InstanceCreatorUtil');"],
-    "description": "SiteVision Util: InstanceCreatorUtil"
+    "description": "InstanceCreatorUtil \n Instance creation utility that can be used in limited scripting languages (such as Velocity)."
   },
   "SiteVision Util: InstanceTypeUtil": {
     "prefix": ["svutil:instance-type-util", "svutil:itu", "util:instance-type-util", "util:itu"],
     "body": ["const instanceTypeUtil = require('InstanceTypeUtil');"],
-    "description": "SiteVision Util: InstanceTypeUtil"
+    "description": "InstanceTypeUtil \n Instance type utility interface."
   },
   "SiteVision Util: JwtUtil": {
     "prefix": ["svutil:jwt-util", "svutil:ju", "util:jwt-util", "util:ju"],
     "body": ["const jwtUtil = require('JwtUtil');"],
-    "description": "SiteVision Util: JwtUtil"
+    "description": "JwtUtil \n JSON Web Token (JWT) utilities."
   },
   "SiteVision Util: LandingPageUtil": {
     "prefix": ["svutil:landing-page-util", "svutil:lpu", "util:landing-page-util", "util:lpu"],
     "body": ["const landingPageUtil = require('LandingPageUtil');"],
-    "description": "SiteVision Util: LandingPageUtil"
+    "description": "LandingPageUtil \n Utility interface for getting landing pages."
   },
   "SiteVision Util: LinkPageUtil": {
     "prefix": ["svutil:link-page-util", "svutil:lpu", "util:link-page-util", "util:lpu"],
     "body": ["const linkPageUtil = require('LinkPageUtil');"],
-    "description": "SiteVision Util: LinkPageUtil"
+    "description": "LinkPageUtil \n Link page utility interface that handles nodes in the page tree with primary node type sv:link."
   },
   "SiteVision Util: LinkRenderer": {
     "prefix": ["svutil:link-renderer", "svutil:lr", "util:link-renderer", "util:lr"],
     "body": ["const linkRenderer = require('LinkRenderer');"],
-    "description": "SiteVision Util: LinkRenderer"
+    "description": "LinkRenderer \n LinkRenderer is a stateful utility interface that can be used to build valid html text links that uses link icons according to the website settings."
   },
   "SiteVision Util: LinkTargetBuilder": {
     "prefix": ["svutil:link-target-builder", "svutil:ltb", "util:link-target-builder", "util:ltb"],
     "body": ["const LinkTargetBuilder = require('LinkTargetBuilder');"],
-    "description": "SiteVision Util: LinkTargetBuilder"
+    "description": "LinkTargetBuilder \n Builder to create link target instances that can be used to create and update a Link page via LinkPageUtil."
   },
   "SiteVision Util: LinkValueBuilder": {
     "prefix": ["svutil:link-value-builder", "svutil:lvb", "util:link-value-builder", "util:lvb"],
     "body": ["const linkValueBuilder = require('LinkValueBuilder');"],
-    "description": "SiteVision Util: LinkValueBuilder"
+    "description": "LinkValueBuilder \n Builder to create LinkValue instances that can be used to set link metadata."
   },
   "SiteVision Util: ListWrapper": {
     "prefix": ["svutil:list-wrapper", "svutil:lw", "util:list-wrapper", "util:lw"],
     "body": ["const listWrapper = require('ListWrapper');"],
-    "description": "SiteVision Util: LocaleUtil"
+    "description": "ListWrapper \n An convenience java.util.List wrapper that delegates method calls to the wrapped list."
   },
   "SiteVision Util: LocaleUtil": {
     "prefix": ["svutil:locale-util", "svutil:lu", "util:locale-util", "util:lu"],
     "body": ["const localeUtil = require('LocaleUtil');"],
-    "description": "SiteVision Util: LocaleUtil"
+    "description": "LocaleUtil \n Locale utility interface."
   },
   "SiteVision Util: LogUtil": {
     "prefix": ["svutil:log-util", "svutil:lu", "util:log-util", "util:lu"],
     "body": ["const logUtil = require('LogUtil');"],
-    "description": "SiteVision Util: LogUtil"
+    "description": "LogUtil \n Logging utility class for simple logging to the SiteVision server log."
   },
   "SiteVision Util: MailBuilder": {
     "prefix": ["svutil:mail-builder", "svutil:mb", "util:mail-builder", "util:mb"],
     "body": ["const mailBuilder = require('MailBuilder');"],
-    "description": "SiteVision Util: MailBuilder"
+    "description": "MailBuilder \n Builder to create a Mail instances that can be sent."
   },
   "SiteVision Util: MailUtil": {
     "prefix": ["svutil:mail-util", "svutil:mu", "util:mail-util", "util:mu"],
     "body": ["const mailUtil = require('MailUtil');"],
-    "description": "SiteVision Util: MailUtil"
+    "description": "MailUtil \n Mail utility interface."
   },
   "SiteVision Util: MathInstance": {
     "prefix": ["svutil:math-instance", "svutil:mi", "util:math-instance", "util:mi"],
     "body": ["const mathInstance = require('MathInstance');"],
-    "description": "SiteVision Util: MathInstance"
+    "description": "MathInstance \n Instance wrapper for the java.lang.Math class that delegates all method calls to the corresponding Math method."
   },
   "SiteVision Util: MessageDigesterFactory": {
     "prefix": ["svutil:message-digester-factory", "svutil:mdf", "util:message-digester-factory", "util:mdf"],
     "body": ["const messageDigesterFactory = require('MessageDigesterFactory');"],
-    "description": "SiteVision Util: MessageDigesterFactory"
+    "description": "MessageDigesterFactory \n Factory that provides message digester instances that can perform hash computation using a specific algorithm."
   },
   "SiteVision Util: MetadataDefinitionUtil": {
     "prefix": ["svutil:metadata-definition-util", "svutil:mdu", "util:metadata-definition-util", "util:mdu"],
     "body": ["const metadataDefinitionUtil = require('MetadataDefinitionUtil');"],
-    "description": "SiteVision Util: MetadataDefinitionUtil"
+    "description": "MetadataDefinitionUtil \n Utility interface for getting metadata definitions."
   },
   "SiteVision Util: MetadataUtil": {
     "prefix": ["svutil:metadata-util", "svutil:mu", "util:metadata-util", "util:mu"],
     "body": ["const metadataUtil = require('MetadataUtil');"],
-    "description": "SiteVision Util: MetadataUtil"
+    "description": "MetadataUtil \n Utility used to handle metadata. Due to the nature of the SiteVision metadata it is not suited to alter the values using JCR (i.e. due to inheritance). This utility adds the functionality needed to access and alter metadata."
   },
   "SiteVision Util: MimeTypeUtil": {
     "prefix": ["svutil:mime-type-util", "svutil:mtu", "util:mime-type-util", "util:mtu"],
     "body": ["const mimeTypeUtil = require('MimeTypeUtil');"],
-    "description": "SiteVision Util: MimeTypeUtil"
+    "description": "MimeTypeUtil \n A utility that determines an appropriate MIME type for a file extension or vice versa."
   },
   "SiteVision Util: MonitorBuilder": {
     "prefix": ["svutil:monitor-builder", "svutil:mb", "util:monitor-builder", "util:mb"],
     "body": ["const monitorBuilder = require('MonitorBuilder');"],
-    "description": "SiteVision Util: MonitorBuilder"
+    "description": "MonitorBuilder \n Builder for creating a Monitor component."
   },
   "SiteVision Util: NodeComparatorUtil": {
     "prefix": ["svutil:node-comparator-util", "svutil:ncu", "util:node-comparator-util", "util:ncu"],
     "body": ["const nodeComparatorUtil = require('NodeComparatorUtil');"],
-    "description": "SiteVision Util: NodeComparatorUtil"
+    "description": "NodeComparatorUtil \n Node comparator utility interface."
   },
   "SiteVision Util: NodeFactoryUtil": {
     "prefix": ["svutil:node-factory-util", "svutil:nfu", "util:node-factory-util", "util:nfu"],
     "body": ["const nodeFactoryUtil = require('NodeFactoryUtil');"],
-    "description": "SiteVision Util: NodeFactoryUtil"
+    "description": "NodeFactoryUtil \n Node factory utility interface."
   },
   "SiteVision Util: NodeFilterUtil": {
     "prefix": ["svutil:node-filter-util", "svutil:nfu", "util:node-filter-util", "util:nfu"],
     "body": ["const nodeFilterUtil = require('NodeFilterUtil');"],
-    "description": "SiteVision Util: NodeFilterUtil"
+    "description": "NodeFilterUtil \n Node filter utility interface."
   },
   "SiteVision Util: NodeIteratorUtil": {
     "prefix": ["svutil:node-iterator-util", "svutil:niu", "util:node-iterator-util", "util:niu"],
     "body": ["const nodeIteratorUtil = require('NodeIteratorUtil');"],
-    "description": "SiteVision Util: NodeIteratorUtil"
+    "description": "NodeIteratorUtil \n Node iterator utility interface."
   },
   "SiteVision Util: NodeResolverUtil": {
     "prefix": ["svutil:node-resolver-util", "svutil:nru", "util:node-resolver-util", "util:nru"],
     "body": ["const nodeResolverUtil = require('NodeResolverUtil');"],
-    "description": "SiteVision Util: NodeResolverUtil"
+    "description": "NodeResolverUtil \n Node resolver utility interface."
   },
   "SiteVision Util: NodeTreeUtil": {
     "prefix": ["svutil:node-tree-util", "svutil:ntu", "util:node-tree-util", "util:ntu"],
     "body": ["const nodeTreeUtil = require('NodeTreeUtil');"],
-    "description": "SiteVision Util: NodeTreeUtil"
+    "description": "NodeTreeUtil \n Node tree utility interface."
   },
   "SiteVision Util: NodeTypeUtil": {
     "prefix": ["svutil:node-type-util", "svutil:ntu", "util:node-type-util", "util:ntu"],
     "body": ["const nodeTypeUtil = require('NodeTypeUtil');"],
-    "description": "SiteVision Util: NodeTypeUtil"
+    "description": "NodeTypeUtil \n Node type utility interface."
   },
   "SiteVision Util: OfflineVersionPropertyUtil": {
     "prefix": ["svutil:offline-version-property-util", "svutil:ovpu", "util:offline-version-property-util", "util:ovpu"],
     "body": ["const offlineVersionPropertyUtil = require('OfflineVersionPropertyUtil');"],
-    "description": "SiteVision Util: OfflineVersionPropertyUtil"
+    "description": "OfflineVersionPropertyUtil \n Utility interface for getting Node property values in the OFFLINE_VERSION."
   },
   "SiteVision Util: OnlineVersionPropertyUtil": {
     "prefix": ["svutil:online-version-property-util", "svutil:ovpu", "util:online-version-property-util", "util:ovpu"],
     "body": ["const onlineVersionPropertyUtil = require('OnlineVersionPropertyUtil');"],
-    "description": "SiteVision Util: OnlineVersionPropertyUtil"
+    "description": "OnlineVersionPropertyUtil \n Utility interface for getting Node property values in the ONLINE_VERSION."
   },
   "SiteVision Util: OutputUtil": {
     "prefix": ["svutil:output-util", "svutil:ou", "util:output-util", "util:ou"],
     "body": ["const outputUtil = require('OutputUtil');"],
-    "description": "SiteVision Util: OutputUtil"
+    "description": "OutputUtil \n Output utility interface with methods that return complete content snippets."
   },
   "SiteVision Util: PageUtil": {
     "prefix": ["svutil:page-util", "svutil:pu", "util:page-util", "util:pu"],
     "body": ["const pageUtil = require('PageUtil');"],
-    "description": "SiteVision Util: PageUtil"
+    "description": "PageUtil \n Page utility interface that handles nodes with primary node type sv:page."
   },
   "SiteVision Util: PermissionUtil": {
     "prefix": ["svutil:permission-util", "svutil:pu", "util:permission-util", "util:pu"],
     "body": ["const permissionUtil = require('PermissionUtil');"],
-    "description": "SiteVision Util: PermissionUtil"
+    "description": "PermissionUtil \n Permissions utilities interface for checking permissions."
   },
   "SiteVision Util: PortletContextUtil": {
     "prefix": ["svutil:portlet-context-util", "svutil:pcu", "util:portlet-context-util", "util:pcu"],
     "body": ["const portletContextUtil = require('PortletContextUtil');"],
-    "description": "SiteVision Util: PortletContextUtil"
+    "description": "PortletContextUtil \n Portlet context utility interface."
   },
   "SiteVision Util: PortletUtil": {
     "prefix": ["svutil:portlet-util", "svutil:pu", "util:portlet-util", "util:pu"],
     "body": ["const portletUtil = require('PortletUtil');"],
-    "description": "SiteVision Util: PortletUtil"
+    "description": "PortletUtil \n Portlet utility interface."
   },
   "SiteVision Util: PrincipalUtil": {
     "prefix": ["svutil:principal-util", "svutil:pu", "util:principal-util", "util:pu"],
     "body": ["const principalUtil = require('PrincipalUtil');"],
-    "description": "SiteVision Util: PrincipalUtil"
+    "description": "PrincipalUtil \n Principal utility interface."
   },
   "SiteVision Util: Properties": {
     "prefix": ["svutil:properties", "svutil:p", "util:properties", "util:p"],
     "body": ["const properties = require('Properties');"],
-    "description": "SiteVision Util: Properties"
+    "description": "Properties \n Utility interface for getting multiple Node property values in server-side Javascript."
   },
   "SiteVision Util: PropertyUtil": {
     "prefix": ["svutil:property-util", "svutil:pu", "util:property-util", "util:pu"],
     "body": ["const propertyUtil = require('PropertyUtil');"],
-    "description": "SiteVision Util: PropertyUtil"
+    "description": "PropertyUtil \n Utility interface for getting Node property values."
   },
   "SiteVision Util: PublishingUtil": {
     "prefix": ["svutil:publishing-util", "svutil:pu", "util:publishing-util", "util:pu"],
     "body": ["const publishingUtil = require('PublishingUtil');"],
-    "description": "SiteVision Util: PublishingUtil"
+    "description": "PublishingUtil \n Publishing/unpublishing utility interface."
   },
   "SiteVision Util: QueryStringUtil": {
     "prefix": ["svutil:query-string-util", "svutil:qsu", "util:query-string-util", "util:qsu"],
     "body": ["const queryStringUtil = require('QueryStringUtil');"],
-    "description": "SiteVision Util: QueryStringUtil"
+    "description": "QueryStringUtil \n Query string utility interface."
   },
   "SiteVision Util: RedirectUtil": {
     "prefix": ["svutil:redirect-util", "svutil:ru", "util:redirect-util", "util:ru"],
     "body": ["const redirectUtil = require('RedirectUtil');"],
-    "description": "SiteVision Util: RedirectUtil"
+    "description": "RedirectUtil \n Redirect utility interface (301 redirects for \"old urls\")."
   },
   "SiteVision Util: RelatedValueBuilder": {
     "prefix": ["svutil:related-value-builder", "svutil:rvb", "util:related-value-builder", "util:rvb"],
     "body": ["const relatedValueBuilder = require('RelatedValueBuilder');"],
-    "description": "SiteVision Util: RelatedValueBuilder"
+    "description": "RelatedValueBuilder \n Builder to create RelatedValue instances that can be used to set related metadata."
   },
   "SiteVision Util: Requester": {
     "prefix": ["svutil:requester", "svutil:json-requester", "svutil:r", "svutil:jr", "util:json-requester", "util:requester", "util:r", "util:jr"],
     "body": ["const requester = require('Requester');"],
-    "description": "SiteVision Util: Requester"
+    "description": "Requester \n Script utility for handling data (typically JSON) from an external website."
   },
   "SiteVision Util: ResourceLocatorUtil": {
     "prefix": ["svutil:resource-locator-util", "svutil:rlu", "util:resource-locator-util", "util:rlu"],
     "body": ["const resourceLocatorUtil = require('ResourceLocatorUtil');"],
-    "description": "SiteVision Util: ResourceLocatorUtil"
+    "description": "ResourceLocatorUtil \n Utility interface for locating resources."
   },
   "SiteVision Util: RestApi": {
     "prefix": ["svutil:rest-api", "svutil:ra", "util:rest-api", "util:ra"],
     "body": ["const restApi = require('RestApi');"],
-    "description": "SiteVision Util: RestApi"
+    "description": "RestApi \n Script utility for server-side invoke of the local SiteVision REST API."
   },
   "SiteVision Util: RestAppInvokerFactory": {
     "prefix": ["svutil:rest-app-invoker-factory", "svutil:raif", "util:rest-app-invoker-factory", "util:raif"],
     "body": ["const restAppInvokerFactory = require('RestAppInvokerFactory');"],
-    "description": "SiteVision Util: RestAppInvokerFactory"
+    "description": "RestAppInvokerFactory \n Creates RestAppInvoker instances."
   },
   "SiteVision Util: RoleAssignmentBuilder": {
     "prefix": ["svutil:role-assignment-builder", "svutil:rab", "util:role-assignment-builder", "util:rab"],
     "body": ["const roleAssignmentBuilder = require('RoleAssignmentBuilder');"],
-    "description": "SiteVision Util: RoleAssignmentBuilder"
+    "description": "RoleAssignmentBuilder \n Builder of RoleAssignment instances."
   },
   "SiteVision Util: RoleMatcherBuilder": {
     "prefix": ["svutil:role-matcher-builder", "svutil:rmb", "util:role-matcher-builder", "util:rmb"],
     "body": ["const roleMatcherBuilder = require('RoleMatcherBuilder');"],
-    "description": "SiteVision Util: RoleMatcherBuilder"
+    "description": "RoleMatcherBuilder \n Builder of RoleMatcher instances."
   },
   "SiteVision Util: RoleUtil": {
     "prefix": ["svutil:role-util", "svutil:ru", "util:role-util", "util:ru"],
     "body": ["const roleUtil = require('RoleUtil');"],
-    "description": "SiteVision Util: RoleUtil"
+    "description": "RoleUtil \n Role utility interface."
   },
   "SiteVision Util: ScriptUtil": {
     "prefix": ["svutil:script-util", "svutil:su", "util:script-util", "util:su"],
     "body": ["const scriptUtil = require('ScriptUtil');"],
-    "description": "SiteVision Util: ScriptUtil"
+    "description": "ScriptUtil \n Scripting utility interface that might be needed when using a limited scripting or template language (such as Velocity)."
   },
   "SiteVision Util: SearcherBuilder": {
     "prefix": ["svutil:searcher-builder", "svutil:sb", "util:searcher-builder", "util:sb"],
     "body": ["const searcherBuilder = require('SearcherBuilder');"],
-    "description": "SiteVision Util: SearcherBuilder"
+    "description": "SearcherBuilder \n Builder for creating a Searcher with a specific setup of components."
   },
   "SiteVision Util: SearchFactory": {
     "prefix": ["svutil:search-factory", "svutil:sf", "util:search-factory", "util:sf"],
     "body": ["const searchFactory = require('SearchFactory');"],
-    "description": "SiteVision Util: SearchFactory"
+    "description": "SearchFactory \n Factory for creating search-related instances."
   },
   "SiteVision Util: SearchFieldUtil": {
     "prefix": ["svutil:search-field-util", "svutil:sfu", "util:search-field-util", "util:sfu"],
     "body": ["const searchFieldUtil = require('SearchFieldUtil');"],
-    "description": "SiteVision Util: SearchFieldUtil"
+    "description": "SearchFieldUtil (DEPRECATED) \n Utility class for converting String values extracted from search fields."
   },
   "SiteVision Util: SearchUtil": {
     "prefix": ["svutil:search-util", "svutil:su", "util:search-util", "util:su"],
     "body": ["const searchUtil = require('SearchUtil');"],
-    "description": "SiteVision Util: SearchUtil"
+    "description": "SearchUtil \n Convenience interface for querying the default index."
   },
   "SiteVision Util: Session": {
     "prefix": ["svutil:session", "svutil:s", "util:session", "util:s"],
     "body": ["const session = require('Session');"],
-    "description": "SiteVision Util: Session"
+    "description": "Session \n The Session object provides read and (in level 2) write access to the content of a particular workspace in the repository."
   },
   "SiteVision Util: SimpleUserUtil": {
     "prefix": ["svutil:simple-user-util", "svutil:suu", "util:simple-user-util", "util:suu"],
     "body": ["const simpleUserUtil = require('SimpleUserUtil');"],
-    "description": "SiteVision Util: SimpleUserUtil"
+    "description": "SimpleUserUtil \n Simple user utility interface."
   },
   "SiteVision Util: SortBuilder": {
     "prefix": ["svutil:sort-builder", "svutil:sb", "util:sort-builder", "util:sb"],
     "body": ["const sortBuilder = require('SortBuilder');"],
-    "description": "SiteVision Util: SortBuilder"
+    "description": "SortBuilder \n Builder for creating a Sort component with specific behaviour."
   },
   "SiteVision Util: SpellCheckBuilder": {
     "prefix": ["svutil:spell-check-builder", "svutil:scb", "util:spell-check-builder", "util:scb"],
     "body": ["const spellCheckBuilder = require('SpellCheckBuilder');"],
-    "description": "SiteVision Util: SpellCheckBuilder"
+    "description": "SpellCheckBuilder \n Builder for creating a SpellCheck component."
   },
   "SiteVision Util: StandardParserBuilder": {
     "prefix": ["svutil:standard-parser-builder", "svutil:spb", "util:standard-parser-builder", "util:spb"],
     "body": ["const standardParserBuilder = require('StandardParserBuilder');"],
-    "description": "SiteVision Util: StandardParserBuilder"
+    "description": "StandardParserBuilder \n Builder for creating a single-field Parser component with specific behaviour."
   },
   "SiteVision Util: StructureUtil": {
     "prefix": ["svutil:structure-util", "svutil:su", "util:structure-util", "util:su"],
     "body": ["const structureUtil = require('StructureUtil');"],
-    "description": "SiteVision Util: StructureUtil"
+    "description": "StructureUtil \n Utility interface for alterations of the node structure."
   },
   "SiteVision Util: SubscriberUtil": {
     "prefix": ["svutil:subscriber-util", "svutil:su", "util:subscriber-util", "util:su"],
     "body": ["const subscriberUtil = require('SubscriberUtil');"],
-    "description": "SiteVision Util: SubscriberUtil"
+    "description": "SubscriberUtil \n Subscriber utility interface."
   },
   "SiteVision Util: SubscriptionUtil": {
     "prefix": ["svutil:subscription-util", "svutil:su", "util:subscription-util", "util:su"],
     "body": ["const subscriptionUtil = require('SubscriptionUtil');"],
-    "description": "SiteVision Util: SubscriptionUtil"
+    "description": "SubscriptionUtil \n Subscription utility interface."
   },
   "SiteVision Util: SystemUserUtil": {
     "prefix": ["svutil:system-user-util", "svutil:suu", "util:system-user-util", "util:suu"],
     "body": ["const systemUserUtil = require('SystemUserUtil');"],
-    "description": "SiteVision Util: SystemUserUtil"
+    "description": "SystemUserUtil \n System user utility interface."
   },
   "SiteVision Util: TemplateUtil": {
     "prefix": ["svutil:template-util", "svutil:tu", "util:template-util", "util:tu"],
     "body": ["const templateUtil = require('TemplateUtil');"],
-    "description": "SiteVision Util: TemplateUtil"
+    "description": "TemplateUtil \n Template utility interface that primarily handles nodes with primary node type sv:template."
   },
   "SiteVision Util: TemporaryFileNodeBuilder": {
     "prefix": ["svutil:temporary-file-node-builder", "svutil:tfnb", "util:temporary-file-node-builder", "util:tfnb"],
     "body": ["const temporaryFileNodeBuilder = require('TemporaryFileNodeBuilder');"],
-    "description": "SiteVision Util: TemporaryFileNodeBuilder"
+    "description": "TemporaryFileNodeBuilder \n Builds volatile and short-lived nodes with primary node type sv:temporaryFile."
   },
   "SiteVision Util: TemporaryNodeBuilder": {
     "prefix": ["svutil:temporary-node-builder", "svutil:tnb", "util:temporary-node-builder", "util:tnb"],
     "body": ["const temporaryNodeBuilder = require('TemporaryNodeBuilder');"],
-    "description": "SiteVision Util: TemporaryNodeBuilder"
+    "description": "TemporaryNodeBuilder \n Builds volatile and short-lived nodes with primary node type sv:temporaryNode."
   },
   "SiteVision Util: TextModuleRendererBuilder": {
     "prefix": ["svutil:text-module-renderer-builder", "svutil:tmrb", "util:text-module-renderer-builder", "util:tmrb"],
     "body": ["const textModuleRendererBuilder = require('TextModuleRendererBuilder');"],
-    "description": "SiteVision Util: TextModuleRendererBuilder"
+    "description": "TextModuleRendererBuilder \n Builder for creating a TextModuleRenderer instance."
   },
   "SiteVision Util: TimestampUtil": {
     "prefix": ["svutil:timestamp-util", "svutil:tu", "util:timestamp-util", "util:tu"],
     "body": ["const timestampUtil = require('TimestampUtil');"],
-    "description": "SiteVision Util: TimestampUtil"
+    "description": "TimestampUtil \n Timestamp utility interface."
   },
   "SiteVision Util: TranslationUtil": {
     "prefix": ["svutil:translation-util", "svutil:tu", "util:translation-util", "util:tu"],
     "body": ["const translationUtil = require('TranslationUtil');"],
-    "description": "SiteVision Util: TranslationUtil"
+    "description": "TranslationUtil \n Translation utility interface."
   },
   "SiteVision Util: TrashcanUtil": {
     "prefix": ["svutil:trashcan-util", "svutil:tu", "util:trashcan-util", "util:tu"],
     "body": ["const trashcanUtil = require('TrashcanUtil');"],
-    "description": "SiteVision Util: TrashcanUtil"
+    "description": "TrashcanUtil \n Trashcan utility interface for delete and restore of nodes."
   },
   "SiteVision Util: UserDataUtil": {
     "prefix": ["svutil:user-data-util", "svutil:udu", "util:user-data-util", "util:udu"],
     "body": ["const userDataUtil = require('UserDataUtil');"],
-    "description": "SiteVision Util: UserDataUtil"
+    "description": "UserDataUtil \n User data utility interface."
   },
   "SiteVision Util: UserFactory": {
     "prefix": ["svutil:user-factory", "svutil:uf", "util:user-factory", "util:uf"],
     "body": ["const userFactory = require('UserFactory');"],
-    "description": "SiteVision Util: UserFactory"
+    "description": "UserFactory \n Factory for creating user-related instances."
   },
   "SiteVision Util: UserFieldRenderer": {
     "prefix": ["svutil:user-field-renderer", "svutil:ufr", "util:user-field-renderer", "util:ufr"],
     "body": ["const userFieldRenderer = require('UserFieldRenderer');"],
-    "description": "SiteVision Util: UserFieldRenderer"
+    "description": "UserFieldRenderer \n UserFieldRenderer is a stateful utility interface for rendering user field values for user identities."
   },
   "SiteVision Util: UserIdentityUtil": {
     "prefix": ["svutil:user-identity-util", "svutil:uiu", "util:user-identity-util", "util:uiu"],
     "body": ["const userIdentityUtil = require('UserIdentityUtil');"],
-    "description": "SiteVision Util: UserIdentityUtil"
+    "description": "UserIdentityUtil \n User identity utility interface."
   },
   "SiteVision Util: UserUtil": {
     "prefix": ["svutil:user-util", "svutil:uu", "util:user-util", "util:uu"],
     "body": ["const userUtil = require('UserUtil');"],
-    "description": "SiteVision Util: UserUtil"
+    "description": "UserUtil (DEPRECATED) \n Use SystemUserUtil and UserIdentityUtil instead."
   },
   "SiteVision Util: Utils": {
     "prefix": ["svutil:utils", "util:utils"],
     "body": ["const utils = require('Utils');"],
-    "description": "SiteVision Util: Utils"
+    "description": "Utils \n Main entry point to get instances of interfaces in the SiteVision Utility API."
   },
   "SiteVision Util: VelocityRenderer": {
     "prefix": ["svutil:velocity-renderer", "svutil:vr", "util:velocity-renderer", "util:vr"],
     "body": ["const velocityRenderer = require('VelocityRenderer');"],
-    "description": "SiteVision Util: VelocityRenderer"
+    "description": "VelocityRenderer \n A renderer that can be used in custom portlets for rendering Velocity templates."
   },
   "SiteVision Util: VersionedPropertyUtil": {
     "prefix": ["svutil:versioned-property-util", "svutil:vpu", "util:versioned-property-util", "util:vpu"],
     "body": ["const versionedPropertyUtil = require('Utils').getVersionedPropertyUtil(${1:aVersion});"],
-    "description": "SiteVision Util: VersionedPropertyUtil"
+    "description": "VersionedPropertyUtil \n Utility interface for getting Node property values in a specific version."
   },
   "SiteVision Util: VersionUtil": {
     "prefix": ["svutil:version-util", "svutil:vu", "util:version-util", "util:vu"],
     "body": ["const versionUtil = require('VersionUtil');"],
-    "description": "SiteVision Util: VersionUtil"
+    "description": "VersionUtil \n Versioning utility interface."
   },
   "SiteVision Util: WebContentUtil": {
     "prefix": ["svutil:web-content-util", "svutil:wcu", "util:web-content-util", "util:wcu"],
     "body": ["const webContentUtil = require('WebContentUtil');"],
-    "description": "SiteVision Util: WebContentUtil"
+    "description": "WebContentUtil \n Utility interface for content manipulation of a sv:page, sv:article or a sv:template."
   },
   "SiteVision Util: WebResourceFactory": {
     "prefix": ["svutil:web-resource-factory", "svutil:wrf", "util:web-resource-factory", "util:wrf"],
     "body": ["const webResourceFactory = require('WebResourceFactory');"],
-    "description": "SiteVision Util: WebResourceFactory"
+    "description": "WebResourceFactory \n Factory for creating instances of web resource utilities."
   },
   "SiteVision Util: XmlParserUtil": {
     "prefix": ["svutil:xml-parser-util", "svutil:xpu", "util:xml-parser-util", "util:xpu"],
     "body": ["const xmlParserUtil = require('XmlParserUtil');"],
-    "description": "SiteVision Util: XmlParserUtil"
+    "description": "XmlParserUtil \n Utility interface for parsing XML."
   },
   "SiteVision Util: XSLTUtil": {
     "prefix": ["svutil:xslt-util", "svutil:xu", "util:xslt-util", "util:xu"],
     "body": ["const xsltUtil = require('XSLTUtil');"],
-    "description": "SiteVision Util: XSLTUtil"
+    "description": "XSLTUtil \n XSLT utility for transforming XML/HTML using a XSL template."
   }
 }
