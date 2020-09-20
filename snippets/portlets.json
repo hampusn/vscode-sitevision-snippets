@@ -1,0 +1,967 @@
+{
+  "SiteVision Portlet: Image": {
+    "prefix": ["svportlet:image", "svportlet:img"],
+    "body": [".sv-image-portlet"],
+    "description": "Image (Portlet) \n The Image module is used to lay an image out on the page. Image is always easily accessible as a shortcut in the toolbar."
+  },
+  
+  "SiteVision Portlet: User profile": {
+    "prefix": ["svportlet:userprofile", "svportlet:up"],
+    "body": [".sv-userprofile-portlet"],
+    "description": "User profile (Portlet) \n The user profile module allows you to show user information from the directory service."
+  },
+  
+  "SiteVision Portlet: Booking": {
+    "prefix": ["svportlet:booking"],
+    "body": [".sv-booking-portlet"],
+    "description": "Booking (Portlet) \n Booking is used for users to book resources such as cars and conference rooms via the website."
+  },
+  
+  "SiteVision Portlet: Custom view": {
+    "prefix": ["svportlet:customview", "svportlet:cv"],
+    "body": [".sv-customview-portlet"],
+    "description": "Custom view (Portlet)"
+  },
+  
+  "SiteVision Portlet: Files": {
+    "prefix": ["svportlet:fileshare", "svportlet:files"],
+    "body": [".sv-fileshare-portlet"],
+    "description": "Files (Portlet) \n The Files module is used on group pages to display files that are in the group."
+  },
+  
+  "SiteVision Portlet: Shared links": {
+    "prefix": ["svportlet:sharedlinks"],
+    "body": [".sv-sharedlinks-portlet"],
+    "description": "Shared links (Portlet) \n The Shared links module allows group members and group admins to add and modify links on a group page in Social Collaboration."
+  },
+  
+  "SiteVision Portlet: Create document": {
+    "prefix": ["svportlet:createdocument", "svportlet:cd"],
+    "body": [".sv-createdocument-portlet"],
+    "description": "Create document (Portlet) \n With the Create document module you can create Word and Excel documents directly in SiteVision."
+  },
+  
+  "SiteVision Portlet: AddThis": {
+    "prefix": ["svportlet:addthis", "svportlet:at"],
+    "body": [".sv-addthis-portlet"],
+    "description": "AddThis (Portlet)"
+  },
+  
+  "SiteVision Portlet: Checkout": {
+    "prefix": ["svportlet:stormcheckout", "svportlet:checkout"],
+    "body": [".sv-stormcheckout-portlet"],
+    "description": "Checkout (Portlet)"
+  },
+  
+  "SiteVision Portlet: Text": {
+    "prefix": ["svportlet:text", "svportlet:t"],
+    "body": [".sv-text-portlet"],
+    "description": "Text (Portlet) \n The Text module works like a normal word processor."
+  },
+  
+  "SiteVision Portlet: Popup-menu": {
+    "prefix": ["svportlet:popupmenu"],
+    "body": [".sv-popupmenu-portlet"],
+    "description": "Popup-menu (Portlet)"
+  },
+  
+  "SiteVision Portlet: Tree-menu": {
+    "prefix": ["svportlet:treeview", "svportlet:tm"],
+    "body": [".sv-treeview-portlet"],
+    "description": "Tree-menu (Portlet)"
+  },
+  
+  "SiteVision Portlet: Menu": {
+    "prefix": ["svportlet:jcrmenu", "svportlet:menu"],
+    "body": [".sv-jcrmenu-portlet"],
+    "description": "Menu (Portlet) \n The Menu module is one of several menu modules found in SiteVision."
+  },
+  
+  "SiteVision Portlet: List menu": {
+    "prefix": ["svportlet:nestedlistmenu"],
+    "body": [".sv-nestedlistmenu-portlet"],
+    "description": "List menu (Portlet) \n List menu is one of several menu modules found in SiteVision that reflects the structure of the website so that the visitor can easily navigate."
+  },
+  
+  "SiteVision Portlet: Expanding menu": {
+    "prefix": ["svportlet:expandmenu", "svportlet:em"],
+    "body": [".sv-expandmenu-portlet"],
+    "description": "Expanding menu (Portlet) \n The expanding menu is one of several menu modules found in SiteVision that reflects the structure of the website so that the visitor can easily navigate."
+  },
+  
+  "SiteVision Portlet: Multilevel menu": {
+    "prefix": ["svportlet:multilevelmenu", "svportlet:mm"],
+    "body": [".sv-multilevelmenu-portlet"],
+    "description": "Multilevel menu (Portlet)"
+  },
+  
+  "SiteVision Portlet: Drop-down menu": {
+    "prefix": ["svportlet:droplistmenu", "svportlet:dropdown"],
+    "body": [".sv-droplistmenu-portlet"],
+    "description": "Drop-down menu (Portlet) \n The drop-down menu allows you to designate an entire folder or a page with subpages that appear as a list."
+  },
+  
+  "SiteVision Portlet: Postcard": {
+    "prefix": ["svportlet:postcard2", "svportlet:pc", "svportlet:card"],
+    "body": [".sv-postcard2-portlet"],
+    "description": "Postcard (Portlet) \n The postcard module is used for visitors to easily send a postcard to a friend."
+  },
+  
+  "SiteVision Portlet: Multi-level link": {
+    "prefix": ["svportlet:multilevellink"],
+    "body": [".sv-multilevellink-portlet"],
+    "description": "Multi-level link (Portlet) \n The multi-level link shows on which webpage the visitor is located and how to reach the current page in the structure."
+  },
+  
+  "SiteVision Portlet: Image slideshow": {
+    "prefix": ["svportlet:imageslideshow", "svportlet:imgs", "svportlet:is"],
+    "body": [".sv-imageslideshow-portlet"],
+    "description": "Image slideshow (Portlet) \n With the slideshow module, you can designate a folder with images that are shown as a slideshow."
+  },
+  
+  "SiteVision Portlet: Video": {
+    "prefix": ["svportlet:video", "svportlet:movie"],
+    "body": [".sv-video-portlet"],
+    "description": "Video (Portlet) \n The Video module shows MP4 files (including .mov) using HTML 5."
+  },
+  
+  "SiteVision Portlet: Image album": {
+    "prefix": ["svportlet:imagealbum", "svportlet:ia"],
+    "body": [".sv-imagealbum-portlet"],
+    "description": "Image album (Portlet)"
+  },
+  
+  "SiteVision Portlet: Image album 2": {
+    "prefix": ["svportlet:imagealbum2", "svportlet:ia2"],
+    "body": [".sv-imagealbum2-portlet"],
+    "description": "Image album 2 (Portlet)"
+  },
+  
+  "SiteVision Portlet: Rating": {
+    "prefix": ["svportlet:rating"],
+    "body": [".sv-rating-portlet"],
+    "description": "Rating (Portlet) \n With the Rating module, visitors can make their voices heard on the web pages."
+  },
+  
+  "SiteVision Portlet: Comments": {
+    "prefix": ["svportlet:comments2"],
+    "body": [".sv-comments2-portlet"],
+    "description": "Comments (Portlet) \n The Comments module is used for users to be able to write comments on pages."
+  },
+  
+  "SiteVision Portlet: Table": {
+    "prefix": ["svportlet:table"],
+    "body": [".sv-table-portlet"],
+    "description": "Table (Portlet)"
+  },
+  
+  "SiteVision Portlet: Image map": {
+    "prefix": ["svportlet:imagemap", "svportlet:imgmap"],
+    "body": [".sv-imagemap-portlet"],
+    "description": "Image map (Portlet) \n An image map is a clickable image where you can select different parts of the image and link each part to different addresses."
+  },
+  
+  "SiteVision Portlet: Search": {
+    "prefix": ["svportlet:search"],
+    "body": [".sv-search-portlet"],
+    "description": "Search (Portlet)"
+  },
+  
+  "SiteVision Portlet: A-Z list": {
+    "prefix": ["svportlet:abc", "svportlet:azlist"],
+    "body": [".sv-abc-portlet"],
+    "description": "A-Z list (Portlet) \n The A-Z list is used to help visitors find what they are looking for on the website."
+  },
+  
+  "SiteVision Portlet: Login": {
+    "prefix": ["svportlet:login"],
+    "body": [".sv-login-portlet"],
+    "description": "Login (Portlet) \n Use the login module to create a login form for a web page."
+  },
+  
+  "SiteVision Portlet: Site information": {
+    "prefix": ["svportlet:siteinfo", "svportlet:si"],
+    "body": [".sv-siteinfo-portlet"],
+    "description": "Site information (Portlet)"
+  },
+  
+  "SiteVision Portlet: Search facets": {
+    "prefix": ["svportlet:facetedsearch", "svportlet:search"],
+    "body": [".sv-facetedsearch-portlet"],
+    "description": "Search facets (Portlet) \n The Search faceted module is an extension of the Search module with support for facets and more advanced settings, for example, what search fields to use and user controlled sort order."
+  },
+  
+  "SiteVision Portlet: Predefined search": {
+    "prefix": ["svportlet:predefinedsearch", "svportlet:pds", "svportlet:search"],
+    "body": [".sv-predefinedsearch-portlet"],
+    "description": "Predefined search (Portlet) \n With the search listing module, you can make a 'hidden' search."
+  },
+  
+  "SiteVision Portlet: Standard search": {
+    "prefix": ["svportlet:standardsearch", "svportlet:search"],
+    "body": [".sv-standardsearch-portlet"],
+    "description": "Search (Portlet) \n The search module is used to create a find function on the website."
+  },
+  
+  "SiteVision Portlet: Search field": {
+    "prefix": ["svportlet:searchform", "svportlet:searchfield"],
+    "body": [".sv-searchform-portlet"],
+    "description": "Search field (Portlet) \n The Search field module does not display any search results but is used when you only want to lay out a search field, usually in the template."
+  },
+  
+  "SiteVision Portlet: Search field for users and content": {
+    "prefix": ["svportlet:searchform2", "svportlet:searchfieldforusersandcontent"],
+    "body": [".sv-searchform2-portlet"],
+    "description": "Search field for users and content (Portlet) \n The module is used in Social Collaboration and allows searching both on user, content and user generated content (posts and comments) via the same search box."
+  },
+  
+  "SiteVision Portlet: Keywords": {
+    "prefix": ["svportlet:keyword"],
+    "body": [".sv-keyword-portlet"],
+    "description": "Keywords (Portlet)"
+  },
+  
+  "SiteVision Portlet: News": {
+    "prefix": ["svportlet:archive", "svportlet:news"],
+    "body": [".sv-archive-portlet"],
+    "description": "News (Portlet) \n The News module lists articles from archives and RSS."
+  },
+  
+  "SiteVision Portlet: News menu": {
+    "prefix": ["svportlet:archivemenu", "svportlet:newsmenu"],
+    "body": [".sv-archivemenu-portlet"],
+    "description": "News menu (Portlet) \n The news menu is used to show news articles by year and month."
+  },
+  
+  "SiteVision Portlet: Link list": {
+    "prefix": ["svportlet:linklist"],
+    "body": [".sv-linklist-portlet"],
+    "description": "Link list (Portlet) \n The link list is used to list articles from an archive."
+  },
+  
+  "SiteVision Portlet: Login status": {
+    "prefix": ["svportlet:loginstatus", "svportlet:ls"],
+    "body": [".sv-loginstatus-portlet"],
+    "description": "Login status (Portlet) \n The Login status module displays a log in link or prints who you are logged in as."
+  },
+  
+  "SiteVision Portlet: SharePoint file share": {
+    "prefix": ["svportlet:sharepointfile"],
+    "body": [".sv-sharepointfile-portlet"],
+    "description": "SharePoint file share (Portlet)"
+  },
+  
+  "SiteVision Portlet: SharePoint search file share": {
+    "prefix": ["svportlet:sharepointsearchfilelist"],
+    "body": [".sv-sharepointsearchfilelist-portlet"],
+    "description": "SharePoint search file share (Portlet)"
+  },
+  
+  "SiteVision Portlet: File sharing": {
+    "prefix": ["svportlet:file", "svportlet:fs"],
+    "body": [".sv-file-portlet"],
+    "description": "File sharing (Portlet) \n With the File sharing module, you can designate a folder in the file archive that automatically publishes all files that are added to that folder."
+  },
+  
+  "SiteVision Portlet: All files": {
+    "prefix": ["svportlet:fileshareall", "svportlet:fsa"],
+    "body": [".sv-fileshareall-portlet"],
+    "description": "All files (Portlet) \n The All files module is used to present information about files in a group."
+  },
+  
+  "SiteVision Portlet: Images in timeline": {
+    "prefix": ["svportlet:timelineimages", "svportlet:imagesintimeline"],
+    "body": [".sv-timelineimages-portlet"],
+    "description": "Images in timeline (Portlet) \n With the Images module, you can view images on a profile or group page in Social Collaboration."
+  },
+  
+  "SiteVision Portlet: Group tasks": {
+    "prefix": ["svportlet:tasks", "svportlet:grouptasks", "svportlet:gt"],
+    "body": [".sv-tasks-portlet"],
+    "description": "Group tasks (Portlet) \n The Group tasks module acts as a 'to-do list' for a group."
+  },
+  
+  "SiteVision Portlet: Group calendar": {
+    "prefix": ["svportlet:calendar", "svportlet:groupcalendar", "svportlet:gc"],
+    "body": [".sv-calendar-portlet"],
+    "description": "Group calendar (Portlet) \n The Group calendar module is used to keep track of a group's activities."
+  },
+  
+  "SiteVision Portlet: Webmap": {
+    "prefix": ["svportlet:webmap"],
+    "body": [".sv-webmap-portlet"],
+    "description": "Webmap (Portlet)"
+  },
+  
+  "SiteVision Portlet: Web map": {
+    "prefix": ["svportlet:sitemap"],
+    "body": [".sv-sitemap-portlet"],
+    "description": "Web map (Portlet) \n The web map is used to graphically display the site's structure."
+  },
+  
+  "SiteVision Portlet: Printable version": {
+    "prefix": ["svportlet:print", "svportlet:printableversion"],
+    "body": [".sv-print-portlet"],
+    "description": "Printable version (Portlet) \n The printable version is used to create a link/icon to a printer-friendly page."
+  },
+  
+  "SiteVision Portlet: ReadSpeaker": {
+    "prefix": ["svportlet:readspeaker", "svportlet:rs", "listen", "screenreader"],
+    "body": [".sv-readspeaker-portlet"],
+    "description": "ReadSpeaker (Portlet) \n The module is used to easily add the ReadSpeaker reading service."
+  },
+  
+  "SiteVision Portlet: ReadSpeaker Expanding Player": {
+    "prefix": ["svportlet:readspeaker_expandingplayer"],
+    "body": [".sv-readspeaker_expandingplayer-portlet"],
+    "description": "ReadSpeaker Expanding Player (Portlet)"
+  },
+  
+  "SiteVision Portlet: Style": {
+    "prefix": ["svportlet:style"],
+    "body": [".sv-style-portlet"],
+    "description": "Style (Portlet)"
+  },
+  
+  "SiteVision Portlet: Forum": {
+    "prefix": ["svportlet:forum"],
+    "body": [".sv-forum-portlet"],
+    "description": "Forum (Portlet)"
+  },
+  
+  "SiteVision Portlet: FAQ list": {
+    "prefix": ["svportlet:newsfaq"],
+    "body": [".sv-newsfaq-portlet"],
+    "description": "FAQ list (Portlet)"
+  },
+  
+  "SiteVision Portlet: Email form": {
+    "prefix": ["svportlet:form", "svportlet:email-form"],
+    "body": [".sv-form-portlet"],
+    "description": "Email form (Portlet) \n The e-mail form is used to create a form that website visitors can complete."
+  },
+  
+  "SiteVision Portlet: Questions form": {
+    "prefix": ["svportlet:dbform", "svportlet:questionsform"],
+    "body": [".sv-dbform-portlet"],
+    "description": "Questions form (Portlet) \n The questions form is used to create forms that website visitors can complete."
+  },
+  
+  "SiteVision Portlet: Directory": {
+    "prefix": ["svportlet:directory", "search", "people", "user"],
+    "body": [".sv-directory-portlet"],
+    "description": "Directory (Portlet) \n With Directory, visitors can search for people in the directory service on different search criteria."
+  },
+  
+  "SiteVision Portlet: Language selector": {
+    "prefix": ["svportlet:language", "svportlet:languageselector"],
+    "body": [".sv-language-portlet"],
+    "description": "Language selector (Portlet) \n The Language selector module is used if you have translated a lot of pages on a website."
+  },
+  
+  "SiteVision Portlet: Subscription": {
+    "prefix": ["svportlet:subscription"],
+    "body": [".sv-subscription-portlet"],
+    "description": "Subscription (Portlet)"
+  },
+  
+  "SiteVision Portlet: Web poll": {
+    "prefix": ["svportlet:poll", "svportlet:webpoll"],
+    "body": [".sv-poll-portlet"],
+    "description": "Web poll (Portlet) \n Web poll is used to make small surveys among site visitors regarding various issues."
+  },
+  
+  "SiteVision Portlet: Linked module": {
+    "prefix": ["svportlet:linked", "svportlet:linkedmodule"],
+    "body": [".sv-linked-portlet"],
+    "description": "Linked module (Portlet) \n A linked module is used to display the contents of a module at another location within the website."
+  },
+  
+  "SiteVision Portlet: HTML": {
+    "prefix": ["svportlet:html"],
+    "body": [".sv-html-portlet"],
+    "description": "HTML (Portlet) \n The HTML module can be used to add custom HTML code directly to the website."
+  },
+  
+  "SiteVision Portlet: Script": {
+    "prefix": ["svportlet:script"],
+    "body": [".sv-script-portlet"],
+    "description": "Script (Portlet) \n The script module is used to include dynamic functions on the web page through scripting."
+  },
+  
+  "SiteVision Portlet: Survey": {
+    "prefix": ["svportlet:survey"],
+    "body": [".sv-survey-portlet"],
+    "description": "Survey (Portlet) \n Survey is used to perform different types of surveys among site visitors."
+  },
+  
+  "SiteVision Portlet: Sign up": {
+    "prefix": ["svportlet:signup", "svportlet:su"],
+    "body": [".sv-signup-portlet"],
+    "description": "Sign up (Portlet) \n Web application means that the visitor can sign up for a course or similar on the website."
+  },
+  
+  "SiteVision Portlet: JSP": {
+    "prefix": ["svportlet:jsp"],
+    "body": [".sv-jsp-portlet"],
+    "description": "JSP (Portlet)"
+  },
+  
+  "SiteVision Portlet: Profile": {
+    "prefix": ["svportlet:profile"],
+    "body": [".sv-profile-portlet"],
+    "description": "Profile (Portlet)"
+  },
+  
+  "SiteVision Portlet: Iframe": {
+    "prefix": ["svportlet:iframe"],
+    "body": [".sv-iframe-portlet"],
+    "description": "Iframe (Portlet) \n Using Iframe, you can integrate existing web applications as part of the web page."
+  },
+  
+  "SiteVision Portlet: Multimedia": {
+    "prefix": ["svportlet:movie"],
+    "body": [".sv-movie-portlet"],
+    "description": "Multimedia (Portlet)"
+  },
+  
+  "SiteVision Portlet: Image vault": {
+    "prefix": ["svportlet:imageexplorer", "svportlet:imagevault", "svportlet:ie", "svportlet:iv"],
+    "body": [".sv-imageexplorer-portlet"],
+    "description": "Image vault (Portlet) \n The image vault handles high-resolution images and automatically scales them to a number of predefined sizes that you set up in the module."
+  },
+  
+  "SiteVision Portlet: Image upload": {
+    "prefix": ["svportlet:imageupload", "svportlet:iu", "svportlet:imgup"],
+    "body": [".sv-imageupload-portlet"],
+    "description": "Image upload (Portlet) \n Image upload is used to upload images to the image archive via a form."
+  },
+  
+  "SiteVision Portlet: Quick publish": {
+    "prefix": ["svportlet:formpublish", "svportlet:quickpublish"],
+    "body": [".sv-formpublish-portlet"],
+    "description": "Quick publish (Portlet) \n Quick publish allows you to create articles online by filling out a form without having to enter the editor in SiteVision."
+  },
+  
+  "SiteVision Portlet: User registration": {
+    "prefix": ["svportlet:userregistration", "svportlet:ur"],
+    "body": [".sv-userregistration-portlet"],
+    "description": "User registration (Portlet) \n With the User Registration module, users can register themselves to get login information to a web page / website that requires login."
+  },
+  
+  "SiteVision Portlet: Change password": {
+    "prefix": ["svportlet:changepassword", "svportlet:cp", "svportlet:pw"],
+    "body": [".sv-changepassword-portlet"],
+    "description": "Change password (Portlet) \n This module allows the user to change their own password."
+  },
+  
+  "SiteVision Portlet: Forgotten password": {
+    "prefix": ["svportlet:generatepassword", "forgotten", "reset"],
+    "body": [".sv-generatepassword-portlet"],
+    "description": "Forgotten password (Portlet) \n This module allows the visitor to get a new password if they have forgotten their password."
+  },
+  
+  "SiteVision Portlet: YouTube": {
+    "prefix": ["svportlet:youtube", "svportlet:yt", "svportlet:movie"],
+    "body": [".sv-youtube-portlet"],
+    "description": "YouTube (Portlet) \n With the YouTube module, you can easily view videos from YouTube on your web page."
+  },
+  
+  "SiteVision Portlet: Qbrick": {
+    "prefix": ["svportlet:qbrick"],
+    "body": [".sv-qbrick-portlet"],
+    "description": "Qbrick (Portlet)"
+  },
+  
+  "SiteVision Portlet: My favourites": {
+    "prefix": ["svportlet:mybookmarks"],
+    "body": [".sv-mybookmarks-portlet"],
+    "description": "My favourites (Portlet)"
+  },
+  
+  "SiteVision Portlet: Random image": {
+    "prefix": ["svportlet:randomimage", "svportlet:ri"],
+    "body": [".sv-randomimage-portlet"],
+    "description": "Random image (Portlet) \n The Random image module allows you, for example, to have a space on the home page that randomly shows images from a folder each time the page is updated."
+  },
+  
+  "SiteVision Portlet: Previous/Next": {
+    "prefix": ["svportlet:forwardback", "svportlet:previousnext"],
+    "body": [".sv-forwardback-portlet"],
+    "description": "Previous/Next (Portlet)"
+  },
+  
+  "SiteVision Portlet: PDF printout": {
+    "prefix": ["svportlet:pdf", "svportlet:print"],
+    "body": [".sv-pdf-portlet"],
+    "description": "PDF printout (Portlet) \n PDF printout allows you to easily create PDF printouts of webpages."
+  },
+  
+  "SiteVision Portlet: Proxy": {
+    "prefix": ["svportlet:proxy"],
+    "body": [".sv-proxy-portlet"],
+    "description": "Proxy (Portlet) \n The proxy module makes it possible to link an external web page or application so that it becomes part of the website."
+  },
+  
+  "SiteVision Portlet: Table of Contents": {
+    "prefix": ["svportlet:toc", "svportlet:tableofcontents"],
+    "body": [".sv-toc-portlet"],
+    "description": "Table of Contents (Portlet) \n With the table of contents, you can view a simple link list of the headings contained in text modules on a webpage."
+  },
+  
+  "SiteVision Portlet: Today": {
+    "prefix": ["svportlet:today"],
+    "body": [".sv-today-portlet"],
+    "description": "Today (Portlet) \n With the Today module, you can easily print today's date in different formats."
+  },
+  
+  "SiteVision Portlet: Today's name": {
+    "prefix": ["svportlet:todaysname"],
+    "body": [".sv-todaysname-portlet"],
+    "description": "Today's name (Portlet) \n The Today's name module shows who has a name’s day today."
+  },
+  
+  "SiteVision Portlet: Guest book": {
+    "prefix": ["svportlet:guestbook2"],
+    "body": [".sv-guestbook2-portlet"],
+    "description": "Guest book (Portlet)"
+  },
+  
+  "SiteVision Portlet: Event calendar": {
+    "prefix": ["svportlet:eventcalendar"],
+    "body": [".sv-eventcalendar-portlet"],
+    "description": "Event calendar (Portlet) \n The event calendar is used to show events."
+  },
+  
+  "SiteVision Portlet: Tell a friend": {
+    "prefix": ["svportlet:tellfriend", "svportlet:tellafriend"],
+    "body": [".sv-tellfriend-portlet"],
+    "description": "Tell a friend (Portlet) \n The module creates a form that can be used by the visitor to a page who wants to tell someone about the interesting page."
+  },
+  
+  "SiteVision Portlet: Contact": {
+    "prefix": ["svportlet:contact2"],
+    "body": [".sv-contact2-portlet"],
+    "description": "Contact (Portlet) \n Contact is a module for sending messages to contact persons (page manager or similar) with a form so you do not have to expose the e-mail address on the website."
+  },
+  
+  "SiteVision Portlet: Blog": {
+    "prefix": ["svportlet:blog"],
+    "body": [".sv-blog-portlet"],
+    "description": "Blog (Portlet) \n A blog is an easy way to create and view published posts on a webpage."
+  },
+  
+  "SiteVision Portlet: Blog categories": {
+    "prefix": ["svportlet:blogcategory", "svportlet:blogcategories"],
+    "body": [".sv-blog_category-portlet"],
+    "description": "Blog categories (Portlet)  \n With the blog categories module, an administrator can post a number of metadata that can then be used to classify blog posts."
+  },
+  
+  "SiteVision Portlet: Blog menu": {
+    "prefix": ["svportlet:blogmenu"],
+    "body": [".sv-blog_menu-portlet"],
+    "description": "Blog menu (Portlet) \n The blog menu is used together with the Blog module."
+  },
+  
+  "SiteVision Portlet: Tag cloud": {
+    "prefix": ["svportlet:tagcloud2"],
+    "body": [".sv-tagcloud2-portlet"],
+    "description": "Tag cloud (Portlet) \n A tag cloud is a graphical view of how often a tag (a metadata) appears on a website."
+  },
+  
+  "SiteVision Portlet: Tag cloud result": {
+    "prefix": ["svportlet:tagcloudresult"],
+    "body": [".sv-tagcloudresult-portlet"],
+    "description": "Tag cloud result (Portlet) \n Tag cloud results shows the results of the tag cloud module."
+  },
+  
+  "SiteVision Portlet: Add/remove favorite": {
+    "prefix": ["svportlet:crdbookmark2", "svportlet:favorite"],
+    "body": [".sv-crdbookmark2-portlet"],
+    "description": "Add/remove favorite (Portlet) \n With Add/remove favourite the visitor can save their favourite pages."
+  },
+  
+  "SiteVision Portlet: List favorites": {
+    "prefix": ["svportlet:listbookmark2", "svportlet:favorites"],
+    "body": [".sv-listbookmark2-portlet"],
+    "description": "List favorites (Portlet) \n List favourites displays the favourite pages that the visitor saved with the module Add/remove favourite."
+  },
+  
+  "SiteVision Portlet: Twitter search": {
+    "prefix": ["svportlet:twittersearch"],
+    "body": [".sv-twittersearch-portlet"],
+    "description": "Twitter search (Portlet) \n Twitter is a micro blog where the amount of characters per post is max 140 characters."
+  },
+  
+  "SiteVision Portlet: Timeline": {
+    "prefix": ["svportlet:timeline"],
+    "body": [".sv-timeline-portlet"],
+    "description": "Timeline (Portlet) \n The Timeline module shows the timelines where users' posts line up."
+  },
+  
+  "SiteVision Portlet: Timeline for tag": {
+    "prefix": ["svportlet:tagtimeline", "svportlet:timelinefortag"],
+    "body": [".sv-tagtimeline-portlet"],
+    "description": "Timeline for tag (Portlet) \n The Timeline for tag module is used to display posts and comments as 'tagged' with a specific tag."
+  },
+  
+  "SiteVision Portlet: Search in timeline": {
+    "prefix": ["svportlet:timelinesearch", "svportlet:searchintimeline"],
+    "body": [".sv-timelinesearch-portlet"],
+    "description": "Search in timeline (Portlet) \n The Search in timeline module is used to search posts and comments in timeline."
+  },
+  
+  "SiteVision Portlet: Post in timeline": {
+    "prefix": ["svportlet:timelineentry", "svportlet:postintimeline"],
+    "body": [".sv-timelineentry-portlet"],
+    "description": "Post in timeline (Portlet) \n The module Post in timeline is used to display an entire thread from a single post in a timeline."
+  },
+  
+  "SiteVision Portlet: Profile image": {
+    "prefix": ["svportlet:profileimage", "svportlet:pi"],
+    "body": [".sv-profileimage-portlet"],
+    "description": "Profile image (Portlet) \n The Profile image module is used to display the profile image for a user or group."
+  },
+  
+  "SiteVision Portlet: Profile strength": {
+    "prefix": ["svportlet:profileprogress", "svportlet:profilestrength"],
+    "body": [".sv-profileprogress-portlet"],
+    "description": "Profile strength (Portlet) \n The Profile strength module shows how far a user has come in completing their social identity in social Collaboration."
+  },
+  
+  "SiteVision Portlet: Contacts": {
+    "prefix": ["svportlet:usercontacts", "svportlet:contacts", "svportlet:uc"],
+    "body": [".sv-usercontacts-portlet"],
+    "description": "Contacts (Portlet) \n The Contacts module is used on profile pages to indicate which contacts a user has."
+  },
+  
+  "SiteVision Portlet: Followers": {
+    "prefix": ["svportlet:userfollowers", "svportlet:followers", "svportlet:uf"],
+    "body": [".sv-userfollowers-portlet"],
+    "description": "Followers (Portlet) \n The Followers module shows the people who are following a user."
+  },
+  
+  "SiteVision Portlet: All contacts/followers": {
+    "prefix": ["svportlet:usercontactsall", "svportlet:uca"],
+    "body": [".sv-usercontactsall-portlet"],
+    "description": "All contacts/followers (Portlet) \n The All contacts/followers module allows you to view a user's contacts or followers in an overhead view."
+  },
+  
+  "SiteVision Portlet: Personal settings": {
+    "prefix": ["svportlet:personalsettings", "svportlet:ps"],
+    "body": [".sv-personalsettings-portlet"],
+    "description": "Personal settings (Portlet) \n The Personal settings module displays the name and a thumbnail of the profile image for the logged-in user."
+  },
+  
+  "SiteVision Portlet: Group members": {
+    "prefix": ["svportlet:groupadmin", "svportlet:groupmembers", "svportlet:gm", "svportlet:ga"],
+    "body": [".sv-groupadmin-portlet"],
+    "description": "Group members (Portlet) \n The Group members module is used on group pages to show which users are members of a group."
+  },
+  
+  "SiteVision Portlet: Messages": {
+    "prefix": ["svportlet:messages"],
+    "body": [".sv-messages-portlet"],
+    "description": "Messages (Portlet) \n The Messages module is used to communicate directly with one or more other users in Social Collaboration."
+  },
+  
+  "SiteVision Portlet: Content list": {
+    "prefix": ["svportlet:contentlist"],
+    "body": [".sv-contentlist-portlet"],
+    "description": "Content list (Portlet) \n With the Table of Contents module, you can choose to designate content in a folder or archive."
+  },
+  
+  "SiteVision Portlet: Product price": {
+    "prefix": ["svportlet:stormproductprice", "svportlet:productprice"],
+    "body": [".sv-stormproductprice-portlet"],
+    "description": "Product price (Portlet)"
+  },
+  
+  "SiteVision Portlet: Add to basket": {
+    "prefix": ["svportlet:stormaddtobasket", "svportlet:addtobasket"],
+    "body": [".sv-stormaddtobasket-portlet"],
+    "description": "Add to basket (Portlet)"
+  },
+  
+  "SiteVision Portlet: BankID Authentication": {
+    "prefix": ["svportlet:bankid"],
+    "body": [".sv-bankid-portlet"],
+    "description": "BankID Authentication (Portlet)"
+  },
+  
+  "SiteVision Portlet: Tags": {
+    "prefix": ["svportlet:showtags", "svportlet:tags"],
+    "body": [".sv-showtags-portlet"],
+    "description": "Tags (Portlet)"
+  },
+  
+  "SiteVision Portlet: Button": {
+    "prefix": ["svportlet:button"],
+    "body": [".sv-button-portlet"],
+    "description": "Button (Portlet)"
+  },
+  
+  "SiteVision Portlet: Product image": {
+    "prefix": ["svportlet:stormimageviewer", "svportlet:productimage"],
+    "body": [".sv-stormimageviewer-portlet"],
+    "description": "Product image (Portlet)"
+  },
+  
+  "SiteVision Portlet: Currency selection": {
+    "prefix": ["svportlet:stormcurrencyselection", "svportlet:currencyselection"],
+    "body": [".sv-stormcurrencyselection-portlet"],
+    "description": "Currency selection (Portlet)"
+  },
+  
+  "SiteVision Portlet: Confirmation page": {
+    "prefix": ["svportlet:stormconfirmation", "svportlet:confirmationpage"],
+    "body": [".sv-stormconfirmation-portlet"],
+    "description": "Confirmation page (Portlet)"
+  },
+  
+  "SiteVision Portlet: Storm breadcrumbs": {
+    "prefix": ["svportlet:stormbreadcrumbs"],
+    "body": [".sv-stormbreadcrumbs-portlet"],
+    "description": "Storm breadcrumbs (Portlet)"
+  },
+  
+  "SiteVision Portlet: Storm product list": {
+    "prefix": ["svportlet:stormproductlist"],
+    "body": [".sv-stormproductlist-portlet"],
+    "description": "Storm product list (Portlet)"
+  },
+  
+  "SiteVision Portlet: Simple product list": {
+    "prefix": ["svportlet:stormcompactproductlist", "svportlet:simpleproductlist"],
+    "body": [".sv-stormcompactproductlist-portlet"],
+    "description": "Simple product list (Portlet)"
+  },
+  
+  "SiteVision Portlet: Technical product description": {
+    "prefix": ["svportlet:stormproductinformation", "svportlet:technicalproductdescription"],
+    "body": [".sv-stormproductinformation-portlet"],
+    "description": "Technical product description (Portlet)"
+  },
+  
+  "SiteVision Portlet: Product description": {
+    "prefix": ["svportlet:stormproductdescription", "svportlet:productdescription"],
+    "body": [".sv-stormproductdescription-portlet"],
+    "description": "Product description (Portlet)"
+  },
+  
+  "SiteVision Portlet: Storm product accessories": {
+    "prefix": ["svportlet:stormproductaccessories"],
+    "body": [".sv-stormproductaccessories-portlet"],
+    "description": "Storm product accessories (Portlet)"
+  },
+  
+  "SiteVision Portlet: Shopping basket": {
+    "prefix": ["svportlet:stormshoppingbasket", "svportlet:shoppingbasket"],
+    "body": [".sv-stormshoppingbasket-portlet"],
+    "description": "Shopping basket (Portlet)"
+  },
+  
+  "SiteVision Portlet: Product status": {
+    "prefix": ["svportlet:stormproductstatus", "svportlet:productstatus"],
+    "body": [".sv-stormproductstatus-portlet"],
+    "description": "Product status (Portlet)"
+  },
+  
+  "SiteVision Portlet: Product header": {
+    "prefix": ["svportlet:stormproductheader", "svportlet:productheader"],
+    "body": [".sv-stormproductheader-portlet"],
+    "description": "Product header (Portlet)"
+  },
+  
+  "SiteVision Portlet: Product search": {
+    "prefix": ["svportlet:stormproductsearch", "svportlet:productsearch"],
+    "body": [".sv-stormproductsearch-portlet"],
+    "description": "Product search (Portlet)"
+  },
+  
+  "SiteVision Portlet: Simple checkout": {
+    "prefix": ["svportlet:stormsimplecheckout", "svportlet:simplecheckout"],
+    "body": [".sv-stormsimplecheckout-portlet"],
+    "description": "Simple checkout (Portlet)"
+  },
+  
+  "SiteVision Portlet: Storm login": {
+    "prefix": ["svportlet:stormlogin"],
+    "body": [".sv-stormlogin-portlet"],
+    "description": "Storm login (Portlet)"
+  },
+  
+  "SiteVision Portlet: Videocall": {
+    "prefix": ["svportlet:videocall"],
+    "body": [".sv-videocall-portlet"],
+    "description": "Videocall (Portlet)"
+  },
+  
+  "SiteVision Portlet: Media": {
+    "prefix": ["svportlet:embeddedmedia", "svportlet:media", "svportlet:em"],
+    "body": [".sv-embeddedmedia-portlet"],
+    "description": "Media (Portlet) \n With the Media module, you can embed content, such as video clips, audio, or a social media post, on your website."
+  },
+  
+  "SiteVision Portlet: All group members": {
+    "prefix": ["svportlet:groupadminall", "svportlet:allgroupmembers", "svportlet:gaa", "svportlet:agm"],
+    "body": [".sv-groupadminall-portlet"],
+    "description": "All group members (Portlet) \n The All group members module is used to show all members of a group."
+  },
+  
+  "SiteVision Portlet: User fields": {
+    "prefix": ["svportlet:userfields"],
+    "body": [".sv-userfields-portlet"],
+    "description": "User fields (Portlet) \n The User fields module is used to display information about users."
+  },
+  
+  "SiteVision Portlet: My tags": {
+    "prefix": ["svportlet:taglist", "svportlet:mytags", "svportlet:tags"],
+    "body": [".sv-taglist-portlet"],
+    "description": "My tags (Portlet) \n The Tags module is typically used on profile pages to show which tags a user follows."
+  },
+  
+  "SiteVision Portlet: Notifications": {
+    "prefix": ["svportlet:notifications"],
+    "body": [".sv-notifications-portlet"],
+    "description": "Notifications (Portlet) \n Notifications are used to inform users that something has happened."
+  },
+  
+  "SiteVision Portlet: Search field for user": {
+    "prefix": ["svportlet:contactsearch", "svportlet:searchfieldforuser"],
+    "body": [".sv-contactsearch-portlet"],
+    "description": "Search field for user (Portlet) \n The Search field for user module shows a search box where it is possible to browse users on the website."
+  },
+  
+  "SiteVision Portlet: Contact status": {
+    "prefix": ["svportlet:contactstatus", "svportlet:cs"],
+    "body": [".sv-contactstatus-portlet"],
+    "description": "Contact status (Portlet) \n The Contact status module is used on the profile page to manage the contact relationship between users."
+  },
+  
+  "SiteVision Portlet: Send message": {
+    "prefix": ["svportlet:sendmessage", "svportlet:message"],
+    "body": [".sv-sendmessage-portlet"],
+    "description": "Send message (Portlet) \n With the Send Message module, you can send messages directly with a user in Social Collaboration."
+  },
+  
+  "SiteVision Portlet: Share page": {
+    "prefix": ["svportlet:sharepage"],
+    "body": [".sv-sharepage-portlet"],
+    "description": "Share page (Portlet) \n With the Share page module, you can share pages on the website neatly and easily."
+  },
+  
+  "SiteVision Portlet: Like page": {
+    "prefix": ["svportlet:likepage", "svportlet:lp"],
+    "body": [".sv-likepage-portlet"],
+    "description": "Like page (Portlet) \n The Like page module allows you to like pages and articles in the same way as files and posts in Social Collaboration."
+  },
+  
+  "SiteVision Portlet: Member status": {
+    "prefix": ["svportlet:groupmemberstatus", "svportlet:memberstatus"],
+    "body": [".sv-groupmemberstatus-portlet"],
+    "description": "Member status (Portlet) \n The member status module is used on group pages to manage a user's relationship to a group."
+  },
+  
+  "SiteVision Portlet: Group settings": {
+    "prefix": ["svportlet:grouptypeselector", "svportlet:groupsettings", "svportlet:gts", "svportlet:gs"],
+    "body": [".sv-grouptypeselector-portlet"],
+    "description": "Group settings (Portlet) \n The Group settings module is used on group pages to indicate what type of group it is."
+  },
+  
+  "SiteVision Portlet: Search user": {
+    "prefix": ["svportlet:contactsearchall", "svportlet:searchuser"],
+    "body": [".sv-contactsearchall-portlet"],
+    "description": "Search user (Portlet) \n The Search users module is used to browse users on the website or to present search results from other modules."
+  },
+  
+  "SiteVision Portlet: Predefined user search": {
+    "prefix": ["svportlet:predefinedcontactsearch", "svportlet:predefinedusersearch"],
+    "body": [".sv-predefinedcontactsearch-portlet"],
+    "description": "Predefined user search (Portlet) \n With the Predefined user search module you can make a 'hidden' search among users on the website and then show them in the form of a list."
+  },
+  
+  "SiteVision Portlet: Groups": {
+    "prefix": ["svportlet:usergroups", "svportlet:groups"],
+    "body": [".sv-usergroups-portlet"],
+    "description": "Groups (Portlet) \n The Groups module is used on profile pages to indicate which groups a user is a member of."
+  },
+  
+  "SiteVision Portlet: Bookmarked posts": {
+    "prefix": ["svportlet:bookmarklist", "svportlet:bookmarkedposts", "svportlet:bml", "svportlete:bp"],
+    "body": [".sv-bookmarklist-portlet"],
+    "description": "Bookmarked posts (Portlet) \n The Bookmarked posts module gives you the ability to bookmark specific posts in timelines."
+  },
+  
+  "SiteVision Portlet: All groups": {
+    "prefix": ["svportlet:usergroupsall", "svportlet:uga", "svportlet:allgroups", "svportlet:ag"],
+    "body": [".sv-usergroupsall-portlet"],
+    "description": "All groups (Portlet) \n The All groups module shows all the groups that a user is a member of."
+  },
+  
+  "SiteVision Portlet: TweetMeme": {
+    "prefix": ["svportlet:tweetmeme"],
+    "body": [".sv-tweetmeme-portlet"],
+    "description": "TweetMeme (Portlet)"
+  },
+  
+  "SiteVision Portlet: Related information": {
+    "prefix": ["svportlet:related", "svportlet:ri"],
+    "body": [".sv-related-portlet"],
+    "description": "Related information (Portlet) \n The Related information module allows you to easily present values from the Link metadata or metadata Related information on the webpage."
+  },
+  
+  "SiteVision Portlet: Subscribe": {
+    "prefix": ["svportlet:simplesubscription", "svportlet:subscription"],
+    "body": [".sv-simplesubscription-portlet"],
+    "description": "Subscribe (Portlet) \n Subscription means that the visitor enters their e-mail address and signs up to receive information about when web pages are published."
+  },
+  
+  "SiteVision Portlet: Subscription list": {
+    "prefix": ["svportlet:subscriptions"],
+    "body": [".sv-subscriptions-portlet"],
+    "description": "Subscription list (Portlet) \n Subscription means that the visitor enters their e-mail address and signs up for the desired web pages to subscribe to."
+  },
+  
+  "SiteVision Portlet: My subscriptions": {
+    "prefix": ["svportlet:adminsubscriptions", "svportlet:mysubscriptions"],
+    "body": [".sv-adminsubscriptions-portlet"],
+    "description": "My subscriptions (Portlet) \n The My subscriptions module is used for the visitor to manage their subscriptions themselves."
+  },
+  
+  "SiteVision Portlet: Map": {
+    "prefix": ["svportlet:geomap"],
+    "body": [".sv-geomap-portlet"],
+    "description": "Map (Portlet)"
+  },
+  
+  "SiteVision Portlet: Birhtday": {
+    "prefix": ["svportlet:birthday"],
+    "body": [".sv-birthday-portlet"],
+    "description": "Birhtday (Portlet) \n With the birthday module you can show who has a birthday today, this week, this month or next (upcoming x number)."
+  },
+  
+  "SiteVision Portlet: Vizzit": {
+    "prefix": ["svportlet:vizzitviewportlet", "svportlet:vvp"],
+    "body": [".sv-vizzitviewportlet-portlet"],
+    "description": "Vizzit (Portlet)"
+  },
+  
+  "SiteVision Portlet: Facebook Like": {
+    "prefix": ["svportlet:facebooklike"],
+    "body": [".sv-facebooklike-portlet"],
+    "description": "Facebook Like (Portlet)"
+  },
+  
+  "SiteVision Portlet: Twitter Tweet": {
+    "prefix": ["svportlet:twittertweet"],
+    "body": [".sv-twittertweet-portlet"],
+    "description": "Twitter Tweet (Portlet)"
+  },
+  
+  "SiteVision Portlet: Google +1": {
+    "prefix": ["svportlet:gplusone"],
+    "body": [".sv-gplusone-portlet"],
+    "description": "Google +1 (Portlet)"
+  }
+}
